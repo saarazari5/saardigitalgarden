@@ -7,9 +7,6 @@ const tocPlugin = require('eleventy-plugin-toc');
 
 const {headerToId, namedHeadingsFilter} = require("./src/helpers/utils") 
 
-module.exports = {
-  permalink: data => data.slug + ".html"
-}
 module.exports = function(eleventyConfig) {
 
     let markdownLib = markdownIt({
