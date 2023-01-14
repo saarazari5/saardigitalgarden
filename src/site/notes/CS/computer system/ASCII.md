@@ -18,5 +18,5 @@ The American Standards Association (ASA), now the American National Standards In
 The first 32 characters of ASCII were reserved control characters. These characters were used to relay special instructions to other devices, like printers. For example, a user could advance a line, delete a character, and more.
 
 ASA published the first version of ASCII in 1963 and revised it in 1967. The last major update to the standard occurred in 1986. ASCII first saw commercial use in the American Telephone & Telegraph (AT&T) TeletypeWriter Exchange (TWX) network.
-Other encoding schemes existed at the time, such as the [International Telegraph Alphabet No. 2](https://en.wikipedia.org/wiki/Baudot_code#ITA2) (ITA2), but ASCII quickly became the standard for American English encoding. ASCII was the most common encoding found on the Internet until it was surpassed by [[CS/UTF-8\|UTF-8]] in 2007.
+Other encoding schemes existed at the time, such as the [International Telegraph Alphabet No. 2](https://en.wikipedia.org/wiki/Baudot_code#ITA2) (ITA2), but ASCII quickly became the standard for American English encoding. ASCII was the most common encoding found on the Internet until it was surpassed by [[CS/computer system/UTF-8\|UTF-8]] in 2007.
 
