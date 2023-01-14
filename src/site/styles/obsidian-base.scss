@@ -5052,7 +5052,7 @@ body {
     scrollbar-width: thin;
     scrollbar-color: var(--scrollbar-thumb-bg) var(--scrollbar-bg);
   }
- // Scroll indicator for sidebar containers
+ /* Scroll indicator for sidebar containers
   body:not(.is-translucent):not(.is-mobile) .workspace-tabs {
       .item-list,
       .nav-files-container,
@@ -5076,7 +5076,7 @@ body {
           background-attachment: local, scroll;
       }
   }
-   
+   */
   .suggestion-container {
     position: absolute;
     background-color: var(--background-primary);
