@@ -57,7 +57,7 @@ enjoy 😃😃!!
 
 ### Databases 📊
 
-* [[CS/The Entity-Relationship Model\|The Entity-Relationship Model]]
+* [[CS/Databases/The Entity-Relationship Model\|The Entity-Relationship Model]]
 * [[CS/Databases/Design of Relational Database Schemas\|Design of Relational Database Schemas]]
 * [[CS/Databases/Design Theory for Relational Databases\|Design Theory for Relational Databases]]
 * [[CS/Databases/overview of SQL\|overview of SQL]]
