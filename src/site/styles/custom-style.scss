@@ -1,5 +1,8 @@
 body {
-  
+   mjx-container {
+    outline: none;
+    overflow-x: scroll;
+  }
 }
 
 .cm-s-obsidian .HyperMD-codeblock {
