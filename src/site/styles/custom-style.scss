@@ -1,13 +1,23 @@
 body {
-    /***
-      ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+.cm-s-obsidian .HyperMD-codeblock {
+    direction:ltr !important;
+  }
+  
+  .markdown-preview-view blockquote {
+  direction:ltr !important;
+  }
+  /* for editor */
+.cm-quote {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+.markdown-preview-view pre>code {
+  direction: ltr !important;
+  }
+
+.cm-s-obsidian span.cm-inline-code {
+  direction: ltr !important;
+}
+  
 }
