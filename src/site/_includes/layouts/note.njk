@@ -2,7 +2,7 @@
 permalink: "notes/{{ page.fileSlug | slugify }}/"
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="{{ pageDirection }}">
   <head>
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
