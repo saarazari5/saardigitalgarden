@@ -3,7 +3,6 @@
 ---
 
 
-``
 # The Entity-Relationship Model
 
 ## HIGH-LEVEL DATABASE MODELS
