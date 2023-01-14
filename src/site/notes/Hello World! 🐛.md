@@ -29,21 +29,38 @@ enjoy 😃😃!!
 
 ### computer system 💻 💿
 
-``` dataview
-LIST 
-FROM #computer_system 
-```
+* [[CS/computer system/ASCII\|ASCII]]
+* [[CS/computer system/base convertors\|base convertors]]
+* [[CS/computer system/basic commands in assembly\|basic commands in assembly]]
+* [[CS/computer system/Computer system basics\|Computer system basics]]
+* [[CS/computer system/control flow in assembly\|control flow in assembly]]
+* [[CS/computer system/Functions in assembly\|Functions in assembly]]
+* [[CS/computer system/Program structure in assembly\|Program structure in assembly]]
+* [[CS/computer system/Little and Big Endian\|Little and Big Endian]]
+* [[CS/computer system/UTF-8\|UTF-8]]
 
 ### algorithms 👾 ⏰
 
-``` dataview
-LIST 
-FROM #algorithms 
-```
+* [[CS/algorithms/FFT\|FFT]]
+* [[CS/algorithms/Divide and conquer\|Divide and conquer]]
+* [[CS/algorithms/DFS\|DFS]]
+* [[CS/algorithms/Minimum Spanning Tree\|Minimum Spanning Tree]]
+* [[CS/algorithms/Fibonacci algorithm\|Fibonacci algorithm]]
+* [[CS/algorithms/Graphs basic definitions for CS\|Graphs basic definitions for CS]]
+* [[CS/algorithms/Prefix Code - Huffman Code\|Prefix Code - Huffman Code]]
+* [[CS/algorithms/binary search\|binary search]]
+* [[CS/algorithms/Asymptotic Analysis\|Asymptotic Analysis]]
+* [[CS/algorithms/Asymptotic notations\|Asymptotic notations]]
+* [[CS/algorithms/Disjoint Set Data Structure\|Disjoint Set Data Structure]]
+* [[CS/algorithms/Dynamic Programming\|Dynamic Programming]]
+* [[CS/algorithms/greedy algorithms\|greedy algorithms]]
+
 ### Databases 📊
-``` dataview
-LIST 
-FROM #databases 
-```
+
+* [[CS/The Entity-Relationship Model\|The Entity-Relationship Model]]
+* [[CS/Databases/Design of Relational Database Schemas\|Design of Relational Database Schemas]]
+* [[CS/Databases/Design Theory for Relational Databases\|Design Theory for Relational Databases]]
+* [[CS/Databases/overview of SQL\|overview of SQL]]
+
 
 __AND MANY MORE TO COME 🥶__
