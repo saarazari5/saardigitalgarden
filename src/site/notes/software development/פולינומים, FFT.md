@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/software-development/fft/","tags":["algorithms","computer_science","gardenEntry"]}
+{"dg-publish":true,"permalink":"/software-development/fft/","tags":["algorithms","computer_science","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
@@ -16,7 +16,8 @@ $$A(x)=\sum\limits_{i=0}^{n-1}a_{i}x^{i}$$
 * הצבה - בהינתן $x_{0}$ כלשהו נרצה לחשב את $A(x_{0})$ 
 * חיבור- עבור שתי פולינום $A(x),B(x)$  כאשר שניהם מדרגה חסומה $n$ נרצה לחשב את $C(x)=A(x)+B(x)$ . יתקיים ש 
 $$C(x)=\sum\limits_{i=0}^{n-1}(a_{i}+b_{i})x^{i}$$
-* כפל-  $$C(x)= A(x)\cdot B(x)$$
+* כפל-  
+$$C(x)= A(x)\cdot B(x)$$
 זה פולינום מדרגה חסומה $2n-1$. 
 נוכל לבטא את $C(x)$ באופן הבא: 
 $$C(x)=\sum\limits_{i=0}^{2n-2} c_{i}x_{i}$$
