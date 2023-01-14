@@ -181,7 +181,7 @@ __זמן ריצה__
 
 
 ## Kruskal algorithm
-כדי להבין את האלגוריתם של prim מומלץ לעבור קודם על [[CS/Disjoint Set Data Structure\|Disjoint Set Data Structure]] 
+כדי להבין את האלגוריתם של prim מומלץ לעבור קודם על [[CS/algorithms/Disjoint Set Data Structure\|Disjoint Set Data Structure]] 
 
 הרעיון של האלגוריתם הזה הוא למצוא את הקשת המינימלית בגרף המצומצם ולהוסיף את הקשת הזו ל MST. 
 המימוש יעבוד כך:
