@@ -1,5 +1,5 @@
 ---
-{"tags":["algorithms","computer_science"],"dg-publish":true,"permalink":"/software-development/algorithms/graphs-basic-definitions-for-computer-science/","dgPassFrontmatter":true}
+{"tags":["algorithms","computer_science"],"dg-publish":true,"pageDirection":"rtl","permalink":"/software-development/algorithms/graphs-basic-definitions-for-computer-science/","dgPassFrontmatter":true}
 ---
 
 
