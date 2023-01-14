@@ -13,31 +13,37 @@ enjoy 😃😃!!
 
 ### probability 👨🏻‍🏫
 
-``` dataview
-LIST 
-FROM "CS/probability"
-```
-
+-   [[CS/probability/CDF\|CDF]]
+-   [[CS/probability/cheat sheet-Discrete Random Variables\|cheat sheet-Discrete Random Variables]]
+-   [[CS/probability/Independence on discrete random variables\|Independence on discrete random variables]]
+-   [[CS/probability/Joint PDF and CDF on Multiple Random Variables\|Joint PDF and CDF on Multiple Random Variables]]
+-   [[CS/probability/Joint PMF\|Joint PMF]]
+-   [[CS/probability/conditional probability\|conditional probability]]
+-   [[CS/probability/conditional discrete random variables\|conditional discrete random variables]]
+-   [[CS/probability/Probabilistic models\|Probabilistic models]]
+-   [[CS/probability/The Complete Probability Theorem and Bayes' Law\|The Complete Probability Theorem and Bayes' Law]]
+-   [[CS/probability/Normal Random Variable\|Normal Random Variable]]
+-   [[CS/probability/Continuous  Random Variables\|Continuous  Random Variables]]
+-   [[CS/probability/Discrete Random Variables\|Discrete Random Variables]]
+-   [[CS/probability/Combinatorics and Probability\|Combinatorics and Probability]]
 
 ### computer system 💻 💿
 
 ``` dataview
 LIST 
-FROM "CS/computer system"
+FROM #computer_system 
 ```
 
 ### algorithms 👾 ⏰
 
 ``` dataview
 LIST 
-FROM "CS/algorithms"
+FROM #algorithms 
 ```
-
 ### Databases 📊
-
 ``` dataview
 LIST 
-FROM "CS/Databases"
+FROM #databases 
 ```
 
 __AND MANY MORE TO COME 🥶__
