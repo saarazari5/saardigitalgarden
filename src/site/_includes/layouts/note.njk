@@ -2,12 +2,12 @@
 permalink: "notes/{{ page.fileSlug | slugify }}/"
 ---
 <!DOCTYPE html>
-<html lang="en" dir="{{ pageDirection }}">
+<html lang="en">
   <head>
     <title>{% if title %}{{ title }}{% else %}{{ page.fileSlug }}{% endif %}</title>
     {%include "components/pageheader.njk"%}
   </head>
-  <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section">
+  <body class="theme-{{meta.baseTheme}} markdown-preview-view markdown-rendered markdown-preview-section" dir="{{ pageDirection }}">
     {%include "components/notegrowthhistory.njk"%}
     
     {% if settings.dgShowFileTree !== true %}
