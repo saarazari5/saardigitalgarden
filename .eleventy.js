@@ -7,10 +7,11 @@ const tocPlugin = require('eleventy-plugin-toc');
 
 const {headerToId, namedHeadingsFilter} = require("./src/helpers/utils") 
 
-eleventyConfig.addDataExtension("pageDirection", "rtl");
 
 module.exports = function(eleventyConfig) {
-
+    
+    eleventyConfig.addDataExtension("pageDirection", "rtl");
+    
     let markdownLib = markdownIt({
             breaks: true,
             html: true
