@@ -5,7 +5,7 @@
 
 # Minimum Spanning Tree
 
-_מומלץ לקרוא את [[CS/algorithms/Graphs basic definitions for computer science\|Graphs basic definitions for computer science]] לפני שנכנסים לסיכום זה._
+_מומלץ לקרוא את [[CS/algorithms/Graphs basic definitions for CS\|Graphs basic definitions for CS]] לפני שנכנסים לסיכום זה._
 
 יהי $G=(V,E)$  מולטי גרף קשיר, ממושקל, עם פונקציית משקל $w:E\rightarrow \mathbb{R}$ . ויהי $T=(V,E_{T})$ עץ פורש של $G$ . 
 נגדיר את __המשקל__ של $T$  להיות $w(T)=\sum\limits_{e\in E_{T}} w(e)$. 
