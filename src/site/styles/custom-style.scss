@@ -23,3 +23,7 @@ body {
 .cm-s-obsidian span.cm-inline-code {
   direction: ltr !important;
 }
+
+.mathjax-block {
+   overflow-x: scroll;
+}
