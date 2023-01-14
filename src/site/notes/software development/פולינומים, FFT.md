@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/software-development/fft/","tags":["algorithms","computer_science","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry","gardenEntry"]}
+{"dg-publish":true,"permalink":"/software-development/fft/","tags":["algorithms","computer_science","gardenEntry","gardenEntry","gardenEntry"]}
 ---
 
 
@@ -249,7 +249,8 @@ FFT((A = [a0,a1,a2,...,a_n-1]))
 _הסבר_ :
 
 נרצה לחשב את ערכי הפולינום $A(x) = \sum\limits_{i=0}^{n-1} a_{i}x^{i}$ על ידי הצבת $n$ שורשי היחידה מסדר $n$. האלגוריתם יחזיר וקטור 
-$$\overline{y}=(y_{0},y_{1},\dots, y_{n-1})$$ כאשר $y_{k}=A(x_{k})= A(w_{n}^{k})= A(e^{\frac{2\pi k}{n}})$ .
+$$\overline{y}=(y_{0},y_{1},\dots, y_{n-1})$$ כאשר
+$$y_{k}=A(x_{k})= A(w_{n}^{k})= A(e^{\frac{2\pi k}{n}})$$
 
 - מקרה בסיס לריקורסיה- וקטור בגודל $1$, במקרה זה מחזירים את המקדם היחיד בוקטור $a_{0}$ כיוון שאין מה להציב עבורו זה פולינום קבוע. 
 - בכל מצב אחר נפעיל את האלגוריתם על $A_{even}$ על מנת לחשב את הפולינום בהצבת$\frac{n}{2}$ שורשי היחידה מסדר $\frac{n}{2}$ . כלומר הקריאה הריקורסיבית מחזירה: 
@@ -454,10 +455,3 @@ _למה זה נכון?_
 
 
 
-## related topics
-``` dataview
-TABLE tags FROM "Notes/software development" 
-WHERE file.tags[0] = this.file.tags[0] AND file.name != this.file.name 
-
-SORT file.name ASC
-```
