@@ -10632,25 +10632,5 @@ body {
     width: 100%;
   }
 
-.cm-s-obsidian .HyperMD-codeblock {
-    direction:ltr !important;
-  }
-  
-  .markdown-preview-view blockquote {
-  direction:ltr !important;
-  }
-  /* for editor */
-.cm-quote {
-  direction: ltr !important;
-  text-align: left !important;
-}
 
-.markdown-preview-view pre>code {
-  direction: ltr !important;
-  }
-
-.cm-s-obsidian span.cm-inline-code {
-  direction: ltr !important;
-}
-  
   
