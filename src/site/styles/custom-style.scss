@@ -23,6 +23,8 @@ body {
   direction: ltr !important;
 }
 
-.mjx-container{
-   overflow-x: scroll;
-}
+.markdown-source-view.mod-cm6 .math-block > mjx-container {
+    margin: 0;
+    padding: 1em 0;
+    overflow-x: scroll !important;
+  }
