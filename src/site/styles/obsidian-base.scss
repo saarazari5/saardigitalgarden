@@ -7031,6 +7031,7 @@ body {
   }
   mjx-container {
     outline: none;
+   overflow-x: scroll;
   }
   .cm-s-obsidian {
     /* addon/fold-math */
@@ -7056,7 +7057,7 @@ body {
   .markdown-source-view.mod-cm6 .math-block > mjx-container {
     margin: 0;
     padding: 1em 0;
-    overflow-x: auto;
+    overflow-x: scroll;
   }
   .workspace-leaf-content[data-type=pdf] .view-content {
     padding: 0;
