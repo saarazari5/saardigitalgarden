@@ -54,6 +54,8 @@ enjoy 😃😃!!
 * [[CS/algorithms/Disjoint Set Data Structure\|Disjoint Set Data Structure]]
 * [[CS/algorithms/Dynamic Programming\|Dynamic Programming]]
 * [[CS/algorithms/greedy algorithms\|greedy algorithms]]
+* [[CS/algorithms/Single-Source Shortest Paths (SSSP)\|Single-Source Shortest Paths (SSSP)]]
+
 
 ### Databases 📊
 
@@ -64,3 +66,10 @@ enjoy 😃😃!!
 
 
 __AND MANY MORE TO COME 🥶__
+
+
+
+
+
+==disclaimer- those notes are something that i wrote as part of my learning process and they have not been looked at by any officials from my university, if you find any thing that you think is a mistake i will be more than happy to fix it, just send it the mail saarazari5@gmail.com 
+
