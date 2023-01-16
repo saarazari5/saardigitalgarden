@@ -145,11 +145,11 @@ $O(n\log^{*}n+m\log^{*}n)\subseteq O(m\log^{*}n)$
 $$T(n)= T(\log n)+1$$
 ## שימושים
 ### מציאת מעגלים בגרף
-```
+``` psuedo
 1. Create disjoint sets for each vertex of the graph.  
 2. For every edge u, v in the graph  
     i) Find the root of the sets to which elements u and v belongs.  
-    ii) If both u and v have the same root in disjoint sets, a cycle is found.
+    ii) If both u and v have the same root in disjoint sets, a cycle found.
 ```
 
 
