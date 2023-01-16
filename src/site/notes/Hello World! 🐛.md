@@ -44,6 +44,7 @@ enjoy 😃😃!!
 * [[CS/algorithms/FFT\|FFT]]
 * [[CS/algorithms/Divide and conquer\|Divide and conquer]]
 * [[CS/algorithms/DFS\|DFS]]
+* [[CS/algorithms/BFS\|BFS]]
 * [[CS/algorithms/Minimum Spanning Tree\|Minimum Spanning Tree]]
 * [[CS/algorithms/Fibonacci algorithm\|Fibonacci algorithm]]
 * [[CS/algorithms/Graphs basic definitions for CS\|Graphs basic definitions for CS]]
