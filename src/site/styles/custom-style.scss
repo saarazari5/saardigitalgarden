@@ -6,8 +6,8 @@ body {
    
    @media (min-width: 768px) {
     img {
-        width: 50%;
-    }
+         overflow-x: scroll;
+      }
    }
 }
 
