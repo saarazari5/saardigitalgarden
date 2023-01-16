@@ -3,13 +3,13 @@ body {
     outline: none;
     overflow-x: scroll;
   }
-   
-   @media (min-width: 768px) {
-    img {
-         overflow-x: scroll;
-      }
-   }
+
 }
+
+   
+ img {
+     overflow-x: scroll;
+  } 
 
 .cm-s-obsidian .HyperMD-codeblock {
     direction:ltr !important;
