@@ -5,7 +5,7 @@
 
 # UTF-8
 
-UTF-8 is an encoding system for [[CS/Unicode\|Unicode]], which mean it can encode all 1,111,998 supported by it. It can translate any Unicode character to a matching unique binary string, and can also translate the binary string back to a Unicode character. This is the meaning of “UTF”, or “Unicode Transformation Format.”
+UTF-8 is an encoding system for [[CS/computer system/Unicode\|Unicode]], which mean it can encode all 1,111,998 supported by it. It can translate any Unicode character to a matching unique binary string, and can also translate the binary string back to a Unicode character. This is the meaning of “UTF”, or “Unicode Transformation Format.”
 There are other encoding systems for Unicode besides UTF-8, but UTF-8 is unique because it represents characters in one-byte units. Remember that one byte consists of eight bits, hence the “-8” in its name.
 
 More specifically, UTF-8 converts a code point (which represents a single character in Unicode) into a set of one to four bytes. The first 256 characters in the Unicode library — which include the characters we saw in ASCII — are represented as one byte. Characters that appear later in the Unicode library are encoded as two-byte, three-byte, and eventually four-byte binary units.
