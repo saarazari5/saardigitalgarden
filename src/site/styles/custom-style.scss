@@ -3,6 +3,12 @@ body {
     outline: none;
     overflow-x: scroll;
   }
+   
+   @media (min-width: 768px) {
+    img {
+        width: 50%;
+    }
+   }
 }
 
 .cm-s-obsidian .HyperMD-codeblock {
