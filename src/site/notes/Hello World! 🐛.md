@@ -70,8 +70,7 @@ enjoy 😃😃!!
 
 ### IOS 📱
 ``` dataview
-LIST 
-FROM #swift  
+list from "ios"  
 ```
 
 
