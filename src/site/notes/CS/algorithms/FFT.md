@@ -119,7 +119,7 @@ Q(x)R(x)+x^{\frac{n}{2}}(Q(x)S(x)+P(x)R(x))+ x^{n}(P(x)S(x))
 
 $$T(n)=\begin{cases} \Theta(1) & n=1 \\ 4T( \frac{n}{2})+O(n) & n\geq 2\end{cases}$$
 
-לפי [[CS/Recurrence relation#the Master theorem\|Recurrence relation#the Master theorem]]  האלגוריתם חסום ב $O(n^{2})$.
+לפי [[CS/algorithms/Recurrence relation#the Master theorem\|Recurrence relation#the Master theorem]]  האלגוריתם חסום ב $O(n^{2})$.
 נוכל לייעל את האלגוריתם אם נשים לב ש:
 $$\displaylines{p_{1}(x)= Q(x)\cdot R(x) \\
 p_{2}(x)= P(x)\cdot S(x) \\
