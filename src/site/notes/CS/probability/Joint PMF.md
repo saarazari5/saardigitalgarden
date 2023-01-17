@@ -46,7 +46,7 @@ $$p_{X}(2)= \frac{1}{20}+ \frac{2}{20}+ \frac{2}{20}+ \frac{1}{20}= \frac{6}{20}
 $$p_{Z}(z)= \sum\limits_{(x,y)\ |\ g(x,y)=z}p_{X,Y}(x,y)$$
 
 
-יתרה מכך התוחלת ( [[Notes/software development/משתנים רנדומיים-בדיד#תוחלת\|Notes/software development/משתנים רנדומיים-בדיד#תוחלת]] ) של פונקצייה על מספר משתנים רנדומיים תיראה כך 
+יתרה מכך התוחלת ( [[CS/probability/Discrete Random Variables#תוחלת\|Discrete Random Variables#תוחלת]] ) של פונקצייה על מספר משתנים רנדומיים תיראה כך 
 $$E[g(X,Y)]= \sum\limits_{(x,y)}g(x,y)p_{X,Y}(x,y)= \sum\limits_{x}\sum\limits_{y}g(x,y)p_{X,Y}(x,y)$$
 נוכל אם כן להרחיב את החוק הנ״ל למקרה פרטי של ליניאריות התוחלת באופן הבא:
 $$g(X,Y)= aX+bY+c \ \ | \ \ a,b,c\in\mathbb{R}$$
@@ -84,7 +84,7 @@ $$E[g(X,Y,Z)]= \sum\limits_{x}\sum\limits_{y}\sum\limits_{z}g(x,y,z)p_{X,Y,Z}(x,
 $$E[aX+bY+cZ+d]= aE[x]+bE[Y]+cE[Z]+d$$
 
 ## התוחלת של משתנה בינומי
-תזכורת על משתנה בינומי נמצא כאן [[Notes/software development/משתנים רנדומיים-בדיד#משתנה/התפלגות בינומי\|Notes/software development/משתנים רנדומיים-בדיד#משתנה/התפלגות בינומי]] 
+תזכורת על משתנה בינומי נמצא כאן [[CS/probability/Discrete Random Variables#משתנה/התפלגות בינומי\|Discrete Random Variables#משתנה/התפלגות בינומי]]
 נתחיל מדוגמה, נניח שיש לנו כתה עם 300 סטודנטים ולכל סטודנט יש הסתברות של $\frac{1}{3}$ לקבל 100 במבחן, ללא תלול באף סטודנט אחר.
 מהי התוחלת של $X$ כאשר הוא משתנה רנדומי שמתאר מספר הסטודנטים שקיבלו 100.
 
@@ -111,5 +111,3 @@ $$E[X]= 300\cdot \frac{1}{3}=100$$
 $$E[X_{i}]= P(X_{i})= \frac{1}{n}$$
 סך הכל נקבל 
 $$E[X]= E\left[\sum\limits_{i=1}^{n} X_{i} \right]= \sum\limits_{i=1}^{n} E[X_{i}]= n\cdot \frac{1}{n}= 1$$
-
-3
