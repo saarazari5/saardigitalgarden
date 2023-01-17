@@ -69,9 +69,11 @@ enjoy 😃😃!!
 ## Mobile Development 📞
 
 ### IOS 📱
-``` dataview
-list from "ios"  
-```
+- [[ios/async await in swift - the basics\|async await in swift - the basics]]
+- [[ios/function builders\|function builders]]
+- [[ios/Swift Protobuf\|Swift Protobuf]]
+- [[ios/Thinking in swiftUI\|Thinking in swiftUI]]
+
 
 
 __AND MANY MORE TO COME 🥶__
