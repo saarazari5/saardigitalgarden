@@ -44,6 +44,8 @@ enjoy 😃😃!!
 - [[CS/computer system/Unicode\|Unicode]]
 - [[CS/computer system/wide-character\|wide-character]]
 - [[CS/computer system/x86-64 Assembly\|x86-64 Assembly]]
+- [[CS/computer system/Disassembly - basics\|Disassembly - basics]]
+- [[CS/computer system/gdb\|gdb]]
 
 ### algorithms 👾 ⏰
 - [[CS/algorithms/Asymptotic Analysis\|Asymptotic Analysis]]
