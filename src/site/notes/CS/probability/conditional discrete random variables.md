@@ -5,14 +5,14 @@
 
 # התניות על משתנה רנדומי בדיד
 
-אנחנו כבר יודעים ש[[CS/probability/conditional probability\|conditional probability]] יכולה לשמש אותנו כדי לתפוס מידע שמועבר על ידי מספר מאורעות על ההסתברויות השונות של משתנה רנדומי. אם כן, נרצה להציג התנייה על פונקציית מסת ההסתברות, שבהינתן שמאורע מסויים התרחש או בהינתן שיש לנו ערך מסויים של משתנה רנדומי אחר. 
+אנחנו כבר יודעים ש[[CS/probability/conditional probability\|הסתברות מותנת]] יכולה לשמש אותנו כדי לתפוס מידע שמועבר על ידי מספר מאורעות על ההסתברויות השונות של משתנה רנדומי. אם כן, נרצה להציג התנייה על פונקציית מסת ההסתברות, שבהינתן שמאורע מסויים התרחש או בהינתן שיש לנו ערך מסויים של משתנה רנדומי אחר. 
 
 ## התנייה של משתנה רנדומי עם מאורע
 ה PMF המותנה של משתנה רנדומי $X$ מותנה במאורע כלשהו $A$ עם $P(A)>0$ מוגדר על ידי 
 $$p_{X|A}(x)= P(X=x|A)= \frac{P(\{X=x\}\cap A)}{P(A)}$$
 כמובן שלכל $x$ נקבל תוצאה אחרת אבל נקבל 
 $$P(A)=\sum\limits_{x}P(\{X=x\}\cap A)$$
-זה נובע מ[[CS/probability/The Complete Probability Theorem and Bayes' Law\|The Complete Probability Theorem and Bayes' Law]]. 
+זה נובע מ[[CS/probability/The Complete Probability Theorem and Bayes' Law\|משפט ההסתברות השלמה]]. 
 
 סך הכל נקבל :
 $$\sum\limits_{x}p_{X|A}(x)= \sum\limits_{x}\frac{P(\{X=x\}\cap A)}{P(A)} = \frac{1}{P(A)}\sum\limits_{x}P(\{X=x\}\cap A)= \frac{P(A)}{P(A)}=1$$
@@ -41,7 +41,7 @@ $$p_{X|A}(k)= \begin{cases} \frac{(1-p)^{k-1}p}{\sum\limits_{m=1}^{n}(1-p)^{m-1}
 
 ## התנייה של משתנה רנדומי עם משתנה רנדומי אחר
 יהי $X,Y$ שתי משתנים רנדומיים המשוייכים לאותו ניסוי. 
-אם אנחנו יודעים שהערך של $Y$ הוא ערך כלשהו $y$ עם פונקציית מסת התסברות גדולה מ0, נוכל לקבל ידע חלקי על הערך של $X$. הידע הזה נתפס על ידי פונקציית מסת ההסתברות המותנת $p_{X|Y}$ של $X$ בהינתן $Y$. זה מקרה פרטי של [[CS/probability/conditional discrete random variables#התנייה של משתנה רנדומי עם מאורע\|#התנייה של משתנה רנדומי עם מאורע]] 
+אם אנחנו יודעים שהערך של $Y$ הוא ערך כלשהו $y$ עם פונקציית מסת התסברות גדולה מ0, נוכל לקבל ידע חלקי על הערך של $X$. הידע הזה נתפס על ידי פונקציית מסת ההסתברות המותנת $p_{X|Y}$ של $X$ בהינתן $Y$. זה מקרה פרטי של התנייה של משתנה רנדומי עם מאורע 
 $$p_{X|A}\text{ where: } A=\{Y=y\}$$
 ולכן יתקיים ש 
 $$p_{X|Y}(x|y)= \frac{P(X=x, Y=y)}{P(Y=y)}= \frac{p_{X,Y}(x,y)}{p_{Y}(y)}$$
@@ -56,7 +56,7 @@ $$\sum\limits_{x} p_{X|Y}(x|y)= \frac{1}{p_{Y}(y)}\cdot \sum\limits_{x} p_{X,Y}(
 $$p_{X,Y}(x,y)= p_{X|Y}(x|y)\cdot p_{Y}(y)$$
 או המקביל אליו 
 $$p_{X,Y}(x,y)= p_{X}(x)\cdot p_{Y|X}(y|x)$$
-זה נובע לגמרי מ[[CS/probability/conditional probability#חוק הכפל\|conditional probability#חוק הכפל]].
+זה נובע מ [[CS/probability/conditional probability#חוק הכפל\|חוק הכפל]] .
 
 __דוגמה__
 הפרופסור באוניברסיטה לעתים קרובות טועה בנתונים ועונה לתלמידים תשובות שגויות בהסתברות של $\frac{1}{4}$, בלי תלות מסויימת בשאלות האחרות.
@@ -74,7 +74,7 @@ $$p_{X,Y}(1,1)= p_{X}(1)\cdot p_{Y|X}(y|x)= \frac{1}{3}\cdot \frac{1}{4}= \frac{
 ומכאן כפי שאנחנו כבר יודעים נוכל לחשב את פונקציית מסת ההסתברות השולית
 
 $$p_{X}(x)= \sum\limits_{y}p_{X,Y}(x,y)= \sum\limits_{y} p_{Y}(y)p_{X|Y}(x|y)$$
-שזה בעצם [[CS/probability/The Complete Probability Theorem and Bayes' Law\|The Complete Probability Theorem and Bayes' Law]]
+שזה בעצם [[CS/probability/The Complete Probability Theorem and Bayes' Law\|ההסתברות השלמה]] .
 
 
 ## תוחלת מותנת
@@ -106,7 +106,7 @@ E[X]= \sum\limits_{i=1}^{n}P(A_{i})\sum\limits_{x}x\cdot p_{X|A_{i}}(x)=\sum\lim
 
 ## תוחלת ושונות של משתנה גיאומטרי
 אנחנו כותבים תוכנה שוב ושוב בהסתברות $p$ שהיא תעבוד כמו שצריך. אין תלות בין ניסיונות. מהי התוחלת והשונות של $X$ , מספר הניסיונות עד שהתוכנה עובדת כמו שצריך.
-נזהה ש $X$ הוא [[CS/probability/Discrete Random Variables#משתנה גיאומטרי\|Discrete Random Variables#משתנה גיאומטרי]] עם פונקציית מסת הסתברות  
+נזהה ש $X$ הוא [[CS/probability/Discrete Random Variables#משתנה גיאומטרי\|משתנה גיאומטרי]] עם פונקציית מסת הסתברות  
 $$p_{X}(k)= (1-p)^{k-1}p$$
 אם נחשב את התוחלת והשונות נקבל ש 
 $$E[X]= \sum\limits_{k=1}^{\infty} k(1-p)^{k-1}\cdot p$$
