@@ -309,7 +309,7 @@ $$\sum\limits_{m=0}^{\infty} e^{-\lambda} \frac{\lambda^{m}}{m! }= \sum\limits_{
 [[CS/probability/Independence on discrete random variables#השונות של משתנה בינומי\|Independence on discrete random variables#השונות של משתנה בינומי]]
 
 #### תוחלת ושונות של משתנה גיאומטרי
-[[CS/probability/conditional discrete random variables#תוחלת ושונות של משתנה גיאומטרי\|conditional discrete random variables#תוחלת ושונות של משתנה גיאומטרי]]
+[[CS/probability/Conditioning - discrete random variables#תוחלת ושונות של משתנה גיאומטרי\|Conditioning - discrete random variables#תוחלת ושונות של משתנה גיאומטרי]]
 
 ## קבלת החלטות על ידי שימוש בתוחלת
 נסתכל על בעיה הסתברותית בשם __the quiz problem__ . בהינתן משחק חידות שבו בן אדם מקבל שתי שאלות וחייב להחליט לאיזה שאלה הוא יענה ראשון. (הבחירה היא לא מקרית).
