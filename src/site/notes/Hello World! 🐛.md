@@ -30,6 +30,7 @@ enjoy 😃😃!!
 - [[CS/probability/Normal Random Variable\|Normal Random Variable]]
 - [[CS/probability/Joint PDF and CDF\|Joint PDF and CDF]]
 - [[CS/probability/Conditioning - continuous random variables\|Conditioning - continuous random variables]]
+- [[CS/probability/Independence on continuous random variables\|Independence on continuous random variables]]
 
 
 ### computer system 💻 💿
