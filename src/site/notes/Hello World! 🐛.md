@@ -31,6 +31,8 @@ enjoy 😃😃!!
 - [[CS/probability/Joint PDF and CDF\|Joint PDF and CDF]]
 - [[CS/probability/Conditioning - continuous random variables\|Conditioning - continuous random variables]]
 - [[CS/probability/Independence on continuous random variables\|Independence on continuous random variables]]
+- [[CS/probability/Further Topics on Random Variables\|Further Topics on Random Variables]]
+- [[CS/probability/Limit Theorems\|Limit Theorems]]
 
 
 ### computer system 💻 💿
