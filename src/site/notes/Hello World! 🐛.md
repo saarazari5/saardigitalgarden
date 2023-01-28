@@ -24,7 +24,7 @@ enjoy 😃😃!!
 - [[CS/probability/Joint PMF\|Joint PMF]]
 - [[CS/probability/Conditioning - discrete random variables\|Conditioning - discrete random variables]]
 - [[CS/probability/Independence on discrete random variables\|Independence on discrete random variables]]
-- [[CS/probability/cheat sheet-Discrete Random Variables\|cheat sheet-Discrete Random Variables]]
+- [[CS/probability/introduction to probability\|introduction to probability]]
 - [[CS/probability/Continuous Random Variables\|Continuous Random Variables]]
 - [[CS/probability/CDF\|CDF]]
 - [[CS/probability/Normal Random Variable\|Normal Random Variable]]
