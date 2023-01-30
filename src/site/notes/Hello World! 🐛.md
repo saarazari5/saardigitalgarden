@@ -37,19 +37,19 @@ enjoy 😃😃!!
 
 ### computer system 💻 💿
 - [[CS/computer system/ASCII\|ASCII]]
-- [[CS/computer system/Computer System Memory\|Computer System Memory]]
-- [[CS/computer system/Computer system basics\|Computer system basics]]
 - [[CS/computer system/Disassembly - basics\|Disassembly - basics]]
+- [[CS/computer system/Computer system basics\|Computer system basics]]
 - [[CS/computer system/Functions in assembly\|Functions in assembly]]
-- [[CS/computer system/Little and Big Endian\|Little and Big Endian]]
-- [[CS/computer system/Program structure in assembly\|Program structure in assembly]]
+- [[CS/computer system/Computer System Memory\|Computer System Memory]]
 - [[CS/computer system/UTF-8\|UTF-8]]
 - [[CS/computer system/Unicode\|Unicode]]
+- [[CS/computer system/Program structure in assembly\|Program structure in assembly]]
+- [[CS/computer system/Little and Big Endian\|Little and Big Endian]]
 - [[CS/computer system/base convertors\|base convertors]]
-- [[CS/computer system/basic commands in assembly\|basic commands in assembly]]
 - [[CS/computer system/control flow in assembly\|control flow in assembly]]
-- [[CS/computer system/gdb\|gdb]]
+- [[CS/computer system/basic commands in assembly\|basic commands in assembly]]
 - [[CS/computer system/wide-character\|wide-character]]
+- [[CS/computer system/gdb\|gdb]]
 - [[CS/computer system/x86-64 Assembly\|x86-64 Assembly]]
 
 ### algorithms 👾 ⏰
