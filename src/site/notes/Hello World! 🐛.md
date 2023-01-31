@@ -15,6 +15,7 @@ enjoy 😃😃!!
 ## computer science 👨‍💻👩‍💻
 
 ### probability 👨🏻‍🏫
+- [[CS/probability/2021 A\|2021 A]]
 - [[CS/probability/Probabilistic models\|Probabilistic models]]
 - [[CS/probability/conditional probability\|conditional probability]]
 - [[CS/probability/The Complete Probability Theorem and Bayes' Law\|The Complete Probability Theorem and Bayes' Law]]
