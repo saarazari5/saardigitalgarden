@@ -283,7 +283,8 @@ cov(X,Y)=cov(Y,X)\\
 cov(X,X)= var(X) \\
 cov(X,aY+b)= a\cdot cov(X,Y) \\
 cov(X,Y+Z)= cov(X,Y)+cov(X,Z)\\
-cov(X+Y,Z)= cov(X,Z)+cov(Y,Z)
+cov(X+Y,Z)= cov(X,Z)+cov(Y,Z) \\
+cov(X,a)=0
 }$$
 
 כמו כן בהינתן ש $X,Y$ [[CS/probability/Independence\|תלויים]] אנחנו יודעים ש $E[XY]=E[X]E[Y]$ ולכן יתקיים $cov(X,Y)=0$ . כלומר אם $X,Y$ בלתי תלויים הם גם בלתי משוייכים. נשים לב שההפך לא בהכרח נכון , נראה זאת בדוגמה:
