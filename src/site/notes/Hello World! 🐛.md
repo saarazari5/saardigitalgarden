@@ -70,6 +70,13 @@ enjoy 😃😃!!
 - [[CS/algorithms/DFS\|DFS]]
 - [[CS/algorithms/Single-Source Shortest Paths (SSSP)\|Single-Source Shortest Paths (SSSP)]]
 - [[CS/algorithms/BFS\|BFS]]
+- [[CS/algorithms/All-Pairs Shortest Paths (APSP)\|All-Pairs Shortest Paths (APSP)]]
+- [[CS/algorithms/Algorithms and Matrix Multiplication\|Algorithms and Matrix Multiplication]]
+- [[CS/algorithms/Heavy-light decomposition\|Heavy-light decomposition]]
+- [[CS/algorithms/Transitive closure\|Transitive closure]]
+- [[CS/algorithms/Flow Networks Algorithms\|Flow Networks Algorithms]]
+- [[CS/algorithms/Hash\|Hash]]
+- [[CS/algorithms/probability algorithms basics\|probability algorithms basics]]
 
 
 ### Databases 📊
