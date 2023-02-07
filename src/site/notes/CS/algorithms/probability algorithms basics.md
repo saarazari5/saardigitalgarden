@@ -97,7 +97,9 @@ $$w_{j}=\begin{pmatrix}0\\0\\\vdots \\ 1\\\vdots\\0\end{pmatrix}$$
 
 יתקיים ש 
 
-$$v^{\prime}=v+w_{j}$$ נראה ש $v^{\prime}$ וקטור טוב
+$$v^{\prime}=v+w_{j}$$
+
+נראה ש $v^{\prime}$ וקטור טוב
 
 $$\sum\limits_{k=1}^{n}d_{ik}\cdot v^{\prime}_{k}= \sum\limits_{k=1}^{n}d_{ik}\cdot(v_{k}+w_{k})=\sum\limits_{k=1}^{n}d_{ik}\cdot v_{k}+ \sum\limits_{k=1}^{n}d_{ik}\cdot w_{k}=d_{ij}=1$$
 
