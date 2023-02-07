@@ -94,7 +94,7 @@ lets see whats going on :
 * if we sum all the floors we will get : $$Cn^2\cdot\sum_{n=0} ^{\log_{4}n} \left(\frac{3}{16}\right)^{i}=O(n^2)$$ this is a [Geometric progression](https://en.wikipedia.org/wiki/Geometric_progression) where $q<1$ and therefore it will sum up to a constant.
 
  * the best case scenario is $\Omega(n^2)$ because that the job the first branch is doing
- * because the sum is the worst case scenario and the first work in the best and they are both of $n^2$  the [[time complexity\|time complexity]] of this formula will be :  $\theta(n^2)$ 
+ * because the sum is the worst case scenario and the first work in the best and they are both of $n^2$  the [[CS/algorithms/Asymptotic notations\|Asymptotic notations]] of this formula will be :  $\theta(n^2)$ 
 
 
 ### Iterative method
