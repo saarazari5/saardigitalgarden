@@ -93,6 +93,7 @@ $$\forall_{1\leq i \leq n} : \sum\limits_{k=1}^{n} d_{ik}\cdot v_{k}=0$$
 בגלל ש $v$ רע אז מתקיים בלי הגבלת הכלליות $d_{ij}=1$ . נגדיר
 
 $$w_{j}=\begin{pmatrix}0\\0\\\vdots \\ 1\\\vdots\\0\end{pmatrix}$$
+
 כאשר $1$ נמצא בשורה ה $j$.
 
 יתקיים ש 
