@@ -77,13 +77,3 @@ and now :
 $$i = log{\ 2^i}<log(2k)=\log{k}+\log{2}=\log{k}+1\in{O(\log{k})}$$
 so , we find an even better way to search in a sorted array, as needed. 
 
-
-
-
-##### related topics
-``` dataview
-TABLE tags FROM "Notes" 
-WHERE any(contains(file.tags,this.file.tags)) AND file.name != this.file.name
-
-SORT file.name ASC
-```
