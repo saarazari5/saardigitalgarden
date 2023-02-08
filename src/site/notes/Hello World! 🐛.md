@@ -55,6 +55,7 @@ enjoy 😃😃!!
 ### algorithms 👾 ⏰
 - [[CS/algorithms/Divide and conquer\|Divide and conquer]]
 - [[CS/algorithms/FFT\|FFT]]
+- [[CS/algorithms/Prefix Code - Huffman Code\|Prefix Code - Huffman Code]]
 - [[CS/algorithms/Graphs basic definitions for CS\|Graphs basic definitions for CS]]
 - [[CS/algorithms/Recurrence relation\|Recurrence relation]]
 - [[CS/algorithms/Asymptotic notations\|Asymptotic notations]]
@@ -64,7 +65,6 @@ enjoy 😃😃!!
 - [[CS/algorithms/Dynamic Programming\|Dynamic Programming]]
 - [[CS/algorithms/Asymptotic Analysis\|Asymptotic Analysis]]
 - [[CS/algorithms/greedy algorithms\|greedy algorithms]]
-- [[CS/algorithms/Prefix Code - Huffman Code\|Prefix Code - Huffman Code]]
 - [[CS/algorithms/Minimum Spanning Tree\|Minimum Spanning Tree]]
 - [[CS/algorithms/Disjoint Set Data Structure\|Disjoint Set Data Structure]]
 - [[CS/algorithms/DFS\|DFS]]
