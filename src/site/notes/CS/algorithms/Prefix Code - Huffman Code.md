@@ -42,7 +42,6 @@
 
   _בטבלה הראשונה c(d) הוא רישא של c(c)_ וכאן זה תרחיש שלא יתקיים.
 
-
 ## prefix-free tree
 נוכל להתייחס ל prefix-free code  כעץ בינארי באופן הבא:
 1) התווים הם עלים
@@ -63,7 +62,9 @@ $$|c(\sigma)|=d_{T}(\sigma)$$
 נניח שיש לנו קובץ מאוד גדול ואנחנו רוצים לקודד את האותיות בקובץ על ידי שימוש ב prefix-free code שמביאה את ההגודל הקובץ המקודד __למינימום__.
 נסמן את קבוצת האותיות בקובץ ב $\Sigma$ ונסמן לכל $\sigma\in\Sigma$ את $f_{\sigma}$ שזה מספר הפעמים שהתו מופיע בקובץ.
 אם נשתמש בקוד תחילי $c$ עם עץ $T$ אז הגודל הכולל לקובץ אחרי קידוד יהיה :
+
 $$COST(T)= \sum\limits_{\sigma\in\Sigma} f_{\sigma}\cdot |c(\sigma)|= \sum\limits_{\sigma\in\Sigma}f_{\sigma}\cdot d_{T}(\sigma)$$
+
 זה בעצם הסכום של כל התדירות לאות כפול העומק שלה בעץ כלומר כמה פעמים נצטרך לרדת בעץ כדי להגיע לאות הזאת.
 נרצה לבנות עץ קוד תחילי אופטימלי שעבורו COST יהיה מינימלי. נשים לב שאנחנו מקבלים כקלט את הא״ב והתדירות של כל תו בא״ב.
 
@@ -178,83 +179,3 @@ $$COST(\overline{T})\leq COST(T)$$
 $$COST(\overline{T})= COST(\overline{T}^{\prime})+f_{z} \geq COST(T^{\prime})+ f_{z} = COST(T)$$
 זה נכון בגלל ש$T^{\prime}$ אופטימלי. כלומר קיבלנו שיוויון ולכן $T$ אופטימלי. מה שעשינו כאן בעצם זה השתמשנו בעץ תחילי אופטימלי שמקיים את תכונת הבחירה החמדנית והראנו שהעלות שלו שקולה לעץ שמתקבל מהבנייה הריקורסיבית שעשינו. כלומר הראנו שהצעד החמדני אכן מביא אותנו לפתרון אופטימלי באופן ריקורסיבי. השלב הראשון היה למצוא את הקשר בין העלויות, לאחר מכן הראנו שאם עושים את זה על עץ שמקיים את למת הבחירה החמדנית אז הוא עץ תחילי אופטימלי.
 
-## מימוש 
-``` java
-// Huffman Coding in Java
-
-import java.util.PriorityQueue;
-import java.util.Comparator;
-
-class HuffmanNode {
-  int item;
-  char c;
-  HuffmanNode left;
-  HuffmanNode right;
-}
-
-
-class ImplementComparator implements Comparator<HuffmanNode> {
-  public int compare(HuffmanNode x, HuffmanNode y) {
-    return x.item - y.item;
-  }
-}
-
-
-public class Huffman {
-  public static void printCode(HuffmanNode root, String s) {
-    if (root.left == null && root.right == null && Character.isLetter(root.c)) {
-
-      System.out.println(root.c + "   |  " + s);
-
-      return;
-    }
-    printCode(root.left, s + "0");
-    printCode(root.right, s + "1");
-  }
-
-  public static void main(String[] args) {
-
-    int n = 4;
-    char[] charArray = { 'A', 'B', 'C', 'D' };
-    int[] charfreq = { 5, 1, 6, 3 };
-
-    PriorityQueue<HuffmanNode> q = new PriorityQueue<HuffmanNode>(n, new ImplementComparator());
-
-    for (int i = 0; i < n; i++) {
-      HuffmanNode hn = new HuffmanNode();
-
-      hn.c = charArray[i];
-      hn.item = charfreq[i];
-
-      hn.left = null;
-      hn.right = null;
-
-      q.add(hn);
-    }
-
-    HuffmanNode root = null;
-
-    while (q.size() > 1) {
-
-      HuffmanNode x = q.peek();
-      q.poll();
-
-      HuffmanNode y = q.peek();
-      q.poll();
-
-      HuffmanNode f = new HuffmanNode();
-
-      f.item = x.item + y.item;
-      f.c = '-';
-      f.left = x;
-      f.right = y;
-      root = f;
-
-      q.add(f);
-    }
-    System.out.println(" Char | Huffman code ");
-    System.out.println("--------------------");
-    printCode(root, "");
-  }
-}
-```
