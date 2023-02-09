@@ -124,7 +124,7 @@ $O(n\log^{*}n+m\log^{*}n)\subseteq O(m\log^{*}n)$
 נזכיר ש $\log^{*}$ זה בעצם כמה פעמים ניתן להוציא log עד שמגיעים למספר קטן או שווה ל1.
 $$T(n)= T(\log n)+1$$
 ## שימושים
-### מציאת מעגלים בגרף
+### מציאת מעגלים בגרף לא מכוון
 ``` psuedo
 1. Create disjoint sets for each vertex of the graph.  
 2. For every edge u, v in the graph  
