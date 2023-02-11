@@ -51,6 +51,7 @@ enjoy 😃😃!!
 - [[CS/computer system/wide-character\|wide-character]]
 - [[CS/computer system/gdb\|gdb]]
 - [[CS/computer system/x86-64 Assembly\|x86-64 Assembly]]
+- [[CS/computer system/Unsigned Integers in Binary\|Unsigned Integers in Binary]]
 
 ### algorithms 👾 ⏰
 - [[CS/algorithms/Divide and conquer\|Divide and conquer]]
