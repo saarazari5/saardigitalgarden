@@ -87,6 +87,11 @@ enjoy 😃😃!!
 - [[CS/Databases/Design Theory for Relational Databases\|Design Theory for Relational Databases]]
 - [[CS/Databases/Design of Relational Database Schemas\|Design of Relational Database Schemas]]
 - [[CS/Databases/The Entity-Relationship Model\|The Entity-Relationship Model]]
+- [[CS/Databases/Storage Management\|Storage Management]]
+- [[CS/Databases/Storage Of Data and Indicies\|Storage Of Data and Indicies]]
+- [[CS/Databases/Database Management System\|Database Management System]]
+- [[CS/Databases/Relational Algebra\|Relational Algebra]]
+- [[CS/Databases/Query cost\|Query cost]]
 
 
 ### calculus 📈
