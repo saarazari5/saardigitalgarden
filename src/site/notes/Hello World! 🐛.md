@@ -92,6 +92,7 @@ enjoy 😃😃!!
 - [[CS/Databases/Database Management System\|Database Management System]]
 - [[CS/Databases/Relational Algebra\|Relational Algebra]]
 - [[CS/Databases/Query cost\|Query cost]]
+- [[CS/Databases/Query Optimization\|Query Optimization]]
 
 
 ### calculus 📈
