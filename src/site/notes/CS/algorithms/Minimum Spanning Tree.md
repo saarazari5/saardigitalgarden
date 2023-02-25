@@ -177,7 +177,7 @@ MST-PRIM(G=(V,E),w)
 
 __זמן ריצה__
 זמן הריצה תלוי גם באימפלמנטצייה של $Q$ נסכם בטבלה (ניתן לממש גם באופן אחר ואפילו מומלץ במקרים מסויימים למשל אם המשקלים מוגבלים בגודל או שהם בינאריים)
-| operation    | amount of times | [[Heaps\|Heaps]] using [[CS/data structures/array\|array]] | [[Binomial heap\|Binomial heap]] or [[Binary heap\|Binary heap]] | [[Fibonacci Heap\|Fibonacci Heap]] |
+| operation    | amount of times | [[Heaps\|Heaps]] using [[CS/data structures/array\|array]] | [[Binomial heap\|Binomial heap]] or [[CS/data structures/Binary Heaps\|Binary Heaps]] | [[Fibonacci Heap\|Fibonacci Heap]] |
 | ------------ | --------------- | ------------------------- | ------------------------------------ | ------------------ |
 | Init         | O(1)            | O(V)                      | O(V)                                 | O(V)               |
 | extract_min  | V               | O(V)                      | O(log(V))                            | O(log(V))          |
