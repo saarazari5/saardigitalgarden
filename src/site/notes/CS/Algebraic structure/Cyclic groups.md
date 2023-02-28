@@ -38,7 +38,6 @@ $$\langle a\rangle =\{a^{k} \ \ | \ \ k\in\mathbb{Z}\}$$
 > אם אנחנו יודעים שפעולת החבורה היא $+$ אז נגדיר את החבורה הנוצרת על ידי $a$ כך:
 >  
 >  $$\langle a\rangle =\{ ka \ \ | \ \ k\in\mathbb{Z}\}$$ 
->  
 >  __דוגמה__-
 $$\forall_{n\in \mathbb{Z}}: \langle n\rangle= \{kn \ \ | \ \ k\in\mathbb{Z} \}= n\mathbb{Z}$$
 כלומר $(n\mathbb{Z}, +)$ היא תת חבורה של $\mathbb{Z}$ .
