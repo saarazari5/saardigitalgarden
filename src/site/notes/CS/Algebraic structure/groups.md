@@ -137,3 +137,4 @@ $$Z(G)= \{g\in G \ \ | \ \ \forall_{h\in G}: gh=hg\}$$
 
 __משפט__ חבורה $G$ היא אבלית אמ״מ $Z(G)=G$ . כמו כן לכל חבורה יתקיים $Z(G)$ היא [[CS/Algebraic structure/Sub groups\|תת חבורה]] אבלית של $G$.
 
+
