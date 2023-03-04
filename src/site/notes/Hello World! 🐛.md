@@ -37,6 +37,7 @@ enjoy 😃😃!!
 
 ### computer system 💻 💿
 - [[CS/computer system/ASCII\|ASCII]]
+- [[CS/computer system/Array and Data structures in Assembly\|Array and Data structures in Assembly]]
 - [[CS/computer system/Computer System Cache Memory\|Computer System Cache Memory]]
 - [[CS/computer system/Computer system basics\|Computer system basics]]
 - [[CS/computer system/Disassembly - basics\|Disassembly - basics]]
@@ -45,19 +46,18 @@ enjoy 😃😃!!
 - [[CS/computer system/Program structure in assembly\|Program structure in assembly]]
 - [[CS/computer system/UTF-8\|UTF-8]]
 - [[CS/computer system/Unicode\|Unicode]]
-- [[CS/computer system/Array and Data structures in Assembly\|Array and Data structures in Assembly]]
+- [[CS/computer system/base convertors\|base convertors]]
 - [[CS/computer system/basic commands in assembly\|basic commands in assembly]]
+- [[CS/computer system/control flow in assembly\|control flow in assembly]]
 - [[CS/computer system/gdb\|gdb]]
 - [[CS/computer system/signed Integers in Binary\|signed Integers in Binary]]
 - [[CS/computer system/wide-character\|wide-character]]
 - [[CS/computer system/x86-64 Assembly\|x86-64 Assembly]]
-- [[CS/computer system/base convertors\|base convertors]]
-- [[CS/computer system/control flow in assembly\|control flow in assembly]]
 
 ### algorithms 👾 ⏰
+- [[CS/algorithms/Divide and conquer\|Divide and conquer]]
 - [[CS/algorithms/FFT\|FFT]]
 - [[CS/algorithms/Graphs basic definitions for CS\|Graphs basic definitions for CS]]
-- [[CS/algorithms/Divide and conquer\|Divide and conquer]]
 - [[CS/algorithms/Recurrence relation\|Recurrence relation]]
 - [[CS/algorithms/Asymptotic notations\|Asymptotic notations]]
 - [[CS/algorithms/Fibonacci algorithm\|Fibonacci algorithm]]
