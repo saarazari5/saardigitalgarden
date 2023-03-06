@@ -97,7 +97,7 @@ triangle_report(G=(V,E)):
 				report triangle (u,v,w)
 				
 	for each (u,v) in E
-		if u.isHeavy and v.isHeavy
+		if u.isLite and v.isLite
 			for each w in (N(u) ∩ N(v))
 				report triangle (u,v,w)
 ```
