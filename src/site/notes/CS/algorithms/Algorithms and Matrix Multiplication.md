@@ -97,7 +97,6 @@ $$m_{ab}=m_{bc}=m_{ca}=1$$
 > 
 > __באופן דומה__ נוכל להוכיח שאם נעלה מטריצה $M$ בחזקת $n$ בכפל רגיל נקבל את מספר המסלולים באורך $n$ מ קודקוד $i$ ל $j$ עבור איבר $(m_{ij})^{n}$ 
 
-__נשים לב שפתרנו את בעית זיהוי המשולשים שמחזירה דגל האם קיים או לא בזמן $O(|V|^{3})$ נוכל גם למצוא את המשולשים עצמם בזמן די נאיבי אבל אם נרצה לייעל את התהליך נצטרך להשתמש באלגוריתמים קצת אחרים המשתמשים ב [[CS/algorithms/Heavy-light decomposition\|פרדיגמת קל כבד]]__
 
 ==משפט:==
 אם ניתן לפתור את בעיית זיהוי המשולשים קומבינטורית בזמן $\tilde{O}(V^{3-\varepsilon})$ אז ניתן לפתור את בעיית $BMM$ בזמן $\tilde{O}(n^{3-\frac{\varepsilon}{3}})$ .
@@ -148,7 +147,6 @@ $$c_{\alpha\gamma}= \bigvee\limits_{r=1}^{n} a_{\alpha r}\wedge b_{r\gamma}= (a_
 
 >[!tip] קונבנצייה
 >קל יותר לרשום משולש בגרף הנ״ל  כ $(i_{\alpha},j_{\beta},k_{\gamma})\in I\times J\times K$ במקום $(i_{\alpha},b_{\beta},k_{\gamma},i_{\alpha})\in I\times J\times K\times I$ כיוון שנתון מהגדרה שתמיד יש קשת בין $K$ ל $I$.
-
 
 ==ניסיון 1== 
 נראה ראשית, איך מחשבים את מטריצת המכפלה דרך שימוש באלגוריתם זיהוי משולשים בגרף.
@@ -285,7 +283,7 @@ seidel_generic(A):
 		return 𝚫
 ```
 
-נסביר, האלגוריתם מבצע בונה כל פעם מטריצה חדשה עד אשר תנאי הבסיס שבו יש קשת ישירה מכל קודקוד בגרף $G^{\prime}$ מתקיים (כיוון שהגרף קשיר אנחנו נבצע את הפעולה הזאת לכל היותר $\log |V|$ פעמים) ולאחר מכן יורדים בחזרה כאשר אנחנו מפרקים אחורנית את ערך המסלול הקצר ביותר לפי המשפט שהראנו למעלה. 
+נסביר, האלגוריתם בונה כל פעם מטריצה חדשה עד אשר תנאי הבסיס שבו יש קשת ישירה מכל קודקוד בגרף $G^{\prime}$ מתקיים (כיוון שהגרף קשיר אנחנו נבצע את הפעולה הזאת לכל היותר $\log |V|$ פעמים) ולאחר מכן יורדים בחזרה כאשר אנחנו מפרקים אחורנית את ערך המסלול הקצר ביותר לפי המשפט שהראנו למעלה. 
 
 __נשים לב שבדקנו האם המרחק הקצר ביותר $\delta(u,v)$ בין שתי קודקודים הוא זוגי או אי זוגי מבלי לחשב אותו כלל, איך עשינו זאת?__
 
