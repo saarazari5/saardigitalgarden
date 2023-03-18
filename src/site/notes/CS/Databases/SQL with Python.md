@@ -85,5 +85,4 @@ for row in cur:
 	# some manipulation on row
 ```
 
-### prepared statements
 
