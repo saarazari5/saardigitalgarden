@@ -118,3 +118,16 @@ $$E^{\prime}= E\cup \{(v,u^{\prime}),(v,u^{\prime\prime }) \ \ | \ \ v\in V\}$$
 >1. לכל בעיית הכרעה $S$ יש רדוקציית קוק ל $\overline{S}$  
 >2. לא לכל בעיית הכרעה $S$ יש רדוקציית קארפ ל $\overline{S}$ למשל אם $S$ היא קבוצת כל הקלטים ו $\overline{S}=\emptyset$ 
 
+### קליקה ו IS
+נבנה רידוקציית קארפ מ $IS$ ל $clique$ באופן הבא:
+בהינתן $(G,k)$ קלט ל $IS$ נבנה $(G^{\prime},k^{\prime})$ קלט ל $clique$ כך של 
+
+$$G=(V,E)\to G^{\prime}=(V,\overline{E}) \ \ , \ \ k^{\prime}=k$$
+
+באופן הזה מתקיים ש $(G,k)\in IS \to (G,k^{\prime})\in clique$ כי קיימת קבוצה בת״ל $S$ בגודל $k$ ולכן 
+
+$$u,v\in S\to (u,v)\notin E\to (u,v)\in\overline{E}$$
+
+ולכן בהכרח קיימת קליקה בגודל $k$ ב $G^{\prime}$ .
+הכיוון השני זהה לחלוטין.
+
