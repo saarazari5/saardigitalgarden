@@ -21,7 +21,7 @@ $$S_{clique}= clique = \{(G,k) \ | \ \text{exists a k clique in G}\}$$
 
 נבצע רידוקציית קוק בין $R_{clique}$ ל $clique$ , על ידי בניית אלגוריתם פולינומי שמקבל $(G,k)$ ומחזיר קליקה בגודל $k$ או $\perp$ אם אין כזאת באמצעות גישה לבעיית ההכרעה המתאימה.
 
-`A(G,k)`
+$A(G,k)$
 1. אם $(G,k)\notin clique$ אז החזר $\perp$ 
 2. אחרת, לכל קודקוד $u$ ב $G$ :
 	* הסר מ $G$ את $u$ והקשתות הנוגעות בו. נסמן את הגרף החדש $G^{\prime}$ 
@@ -40,6 +40,11 @@ $$\forall_{x}: x\in S_{1}\leftrightarrow f(x)\in S_{2}$$
 
 >[!note] הערה
 >אם יש רדוקציית קארפ מ $S_{1}$ ל $S_{2}$ יש גם רדוקציית קוק מ $S_1$ ל $S_{2}$ שכן נוכל לכל $x$ לחשב $f(x)$  ולבדוק האם $f(x)\in S_{2}$ 
+
+__משפט:__ אם $S_{2}\in P$ וכן יש רדוקציית קארפ מ $S_{1}$ ל $S_{2}$ אזי $S_{1}\in P$ .
+_הוכחה:_ נבנה את האלגוריתם ל $S_{1}$ בהינתן קלט $x$
+1) חשב $f(x)$ 
+2) החזר $f(x)\in S_{2}$ 
 
 ### IS ו 3-SAT
  נבנה רידוקצייה קארפ מבעיות ההכרעה של [[CS/Computational Complexity/Search and Decision Problems#3-SAT\|3-SAT]] ל [[CS/Computational Complexity/Search and Decision Problems#Independent Set\|IS]] כלומר 
