@@ -113,8 +113,6 @@ if we try to build it until the end we will get :
 
 $$T(n)=2^{i}T(n-3\cdot i)+2^{i+1}-2$$ 
 notice that $2^{i+1}-2$ is a [Geometric progression](https://en.wikipedia.org/wiki/Geometric_progression) 
-{ #answerE1}
-
 
 **how ever, this is not a valid proof and we need to proof it with [# Inductive reasoning](https://en.wikipedia.org/wiki/Inductive_reasoning)** 
 
@@ -122,7 +120,7 @@ notice that $2^{i+1}-2$ is a [Geometric progression](https://en.wikipedia.org/wi
 * ==step-==   assume that $i=k-1$ and we will prove for $i=k$ 
 **we will use full induction most of the times**
 $$T(n)=2^{k-1}ֿ\ T(n-(k-1)\cdot3)+2^k+2$$
-continue develop the expression and we will get the [[CS/algorithms/Recurrence relation#^answerE1\|#^answerE1]] result.
+continue develop the expression and we will get the above result.
 because we know that $T(0)=T(1)=T(2)=T(3)=1$
 now assume $i=\frac{n-1}{3}$ and we now get the following : $T(n)=2^{\frac{n}{3}}\cdot T(1)+2^{\frac{n}{3}+1}-2=2^{\frac{n}{3}}+2^{\frac{n}{3}+1}-2\in \theta(2^{\frac{n}{3}})$  
 
@@ -172,10 +170,6 @@ therefore: $T(n)\in\Theta(n^{2}logn)$
 
 
  
-
-
-
-
 ### switching variables method
 lets look at the following relation: 
 $$T(n)=2T(\sqrt{n})+logn$$
