@@ -7,7 +7,7 @@
 # async await in swift - the basics
 
 
-__`swift` [[CS/advanced programming/concurrency\|concurrency]] features pre [[async await\|async await]] :__
+__`swift` [[concurrency\|concurrency]] features pre [[async await\|async await]] :__
 
 - GCD - [[grand central dispatch\|grand central dispatch]]
 - Completion Blocks
