@@ -16,7 +16,7 @@ __הוכחה__: נשתמש ב [[CS/Computational Models/Turing Machine\|מכונ
 
 נגדיר את בעיית ההכרעה $S_{u}$ הבאה:
 
-$$S_{u}=\{\langle M,x,1^{t}\rangle \ | \ \exists_{y:|y|\leq t}: M(x,y)=1 \wedge M\text{ determine the input after at most t steps}\}$$
+$$\displaylines{S_{u}=\{ \\ \langle M,x,1^{t}\rangle \ | \ \exists_{y:|y|\leq t}: M(x,y)=\\1 \wedge M\text{ determine the input after at most t steps} \\ \}}$$
 
 כמו כן נשים לב ש $M$ זאת מכונת טיורינג שמקבלת 2 קלטים ו $1^{t}=\underbrace{1\circ 1\circ 1\circ 1\dots}_{\text{t times}}$ 
 זאת אכן בעיית $NP$-שלמה, נוכיח זאת.
