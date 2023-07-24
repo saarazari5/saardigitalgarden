@@ -299,3 +299,6 @@ $$w\notin S^{\prime}\leftrightarrow\urcorner(\text{""})=\forall_{y_{1}}\exists_{
 >[!note] מסקנה
 >אם $NP=CONP$ אזי $NP=NP^{NP}$  כי אם $\Sigma_{1}=\Pi_{1}$ אזי $\Sigma_{1}=\Sigma_{2}=NP^{NP}$ .
 
+
+
+
