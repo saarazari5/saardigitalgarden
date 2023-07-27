@@ -166,7 +166,6 @@ return React.createElement('h1',      null, 'Hello world');
 ## Props
 רכיבי React משתמשים ב props כדי לתקשר אחד עם השני. כל רכיב הורה יכול להעביר מידע מסוים לרכיבי הילד שלו על ידי מתן props. 
 props עשויים להזכיר לך תכונות HTML, אבל אתה יכול להעביר דרכם כל ערך JavaScript, כולל אובייקטים, מערכים ופונקציות.
-
 ``` jsx
 export default function Profile(){
 	return (
