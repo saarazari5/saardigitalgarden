@@ -204,33 +204,3 @@ function Avatar({person, size = 100})
 
 >[!info] destructing
 >הסינתקס הזה שבוא מחליפים את הפרמטר props ב `{var1, var2}` נקרא destructing וזה שקול לקריאת הפרמטרים מהprops
-
-### JSX Spread
-לפעמים העברה יכולה לחזור על עצמה 
-```jsx
-function Profile({ person, size, isSepia, thickBorder }) {  
-	return (  
-<div className="card">  
-	<Avatar 
-	person={person}  
-	size={size}  
-	isSepia={isSepia}  
-	thickBorder={thickBorder}  
-	/>  
-</div>  
-);  
-}
-```
-
-לפעמים נרצה לחסוך את הboiler plate הנ״ל ולשם כך נוכל להשתמש בסינתקס של JSX שנקרא spread. הוא נראה כך 
-
-```jsx
-function Profile(props) {
-	return (
-		<div className = "card">
-			<Avatar {...props} />
-		</div>	 
-	)
-}
-```
-
