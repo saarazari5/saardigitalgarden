@@ -8,7 +8,7 @@
 
 __Multiprogramming__: היא תכונה של מערכת ההפעלה שמאפשרת לנו להריץ יותר מ process אחד בכל פעם ובכך להגדיר את ניצולת המערכת על ידי החלפת processes שחלקם הם __IO-Bound__ (תהליכים שמבצעים רוב הזמן פעולות I/O) והאחרים הם __CPU-Bound__ (תהליכים שמצבעים רוב הזמן חישובי מעבד). כדי שמערכת הפעלה תוכל לקיים את התכונה הזאת עליה לבנות מנגנון תזמון שינהל את התהליכים השונים.
 
-דיברנו על [[Computer Science/Operating Systems/Process Managment#Types of Schedulers\|סוגי המתזמנים]] השונים שיש למערכת ההפעלה, ה Long Term וה Short Term ועל תפקידהם. כעת נבין את השיטות שהShort Term קובע איזה מן התהליכים הוא רוצה להריץ בכל רגע נתון.
+דיברנו על [[Computer Science/Operating Systems/Process Management#Types of Schedulers\|סוגי המתזמנים]] השונים שיש למערכת ההפעלה, ה Long Term וה Short Term ועל תפקידהם. כעת נבין את השיטות שהShort Term קובע איזה מן התהליכים הוא רוצה להריץ בכל רגע נתון.
 
 ## Short Term Scheduling
 הוא רץ לפחות כאשר:
