@@ -4,7 +4,7 @@
 
 
 # Threads
-[[Computer Science/Operating Systems/Process Managment\|Process]] - מגדיר את מרחב הכתובות, טקסט, משאבים וכו׳
+[[Computer Science/Operating Systems/Process Management\|Process]] - מגדיר את מרחב הכתובות, טקסט, משאבים וכו׳
 __Threads-__ מגדיר חלק מסויים של הרצה בתוך process (PC,Stack,Registers).
 
 כמה דגשים חשובים על threads:
