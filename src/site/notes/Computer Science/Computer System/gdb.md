@@ -3,7 +3,6 @@
 ---
 
 
-
 # gdb
 **GNU Debugger**, הידוע יותר בשמו **GDB**, הוא פשוט מנפה שגיאות הסטנדרטי למערכות התוכנה של GNU.  
 כחלק מהכלים המרכזיים שלה היא מאפשרת:
@@ -11,7 +10,7 @@
 א. לעצור את ריצת התוכנית בכל שלב
 ב. להגדיר נקודות עצירה או תנאים שבהם התוכנית צריכה לעצור כדי שתוכל לבדוק את המצב שלה.
 ג. לצפות בערכים של משתנים
-ד. ריצה של התכונית שורה אחרי שורה
+ד. ריצה של התוכנית שורה אחרי שורה
 
 ## תחילת השימוש
 יש לקמפל את התוכנית באופן שתומך בdebug 
@@ -163,7 +162,10 @@ int main() {
     
 -   "layout restore": This command restores a layout that was previously saved
     
--   "layout" : This command shows the current layout.
+-   "layout" : This command shows the current layout
+
+- refresh - Refresh the screen. This is similar to typing C-L.
+
 ```
 
 שימוש בפקודה `laynext` ישים חלון עם קוד אסמבלי ולאחר מכן ניתן להשתמש בפקודה `list` כדי לראות את קוד המקור. ובאמצעות פקודות הlayout ניתן לשים אותם אחד ליד השני.
@@ -171,7 +173,7 @@ int main() {
 ## help 
 נוכל להשתמש בפקודה `gdb help` כדי לקבל מידע נוסף שמגיע ישירות מהדוקומונטצייה ככה למשל אם נרצה לדעת עוד על הפקודה  `x` נוכל לרשום :
 
-```gdb 
+```GDB
 (gdb) help x
 Examine memory: x/FMT ADDRESS.
 ADDRESS is an expression for the memory address to examine.
