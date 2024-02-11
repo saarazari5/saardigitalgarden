@@ -25,6 +25,7 @@ $$x_{1}+\dots+x_{n}+\sum\limits_{i=1}^{n}x_{i}=2\sum\limits_{i=1}^{n} x_{i}\equi
 
 $$\sum\limits_{i=1}^{n}y_{i}=2\sum\limits_{i=1}^{n}x_{i}\equiv_{2}0$$
 
+__טכניקה זאת מוכרת גם בשם [Checksum](https://en.wikipedia.org/wiki/Checksum)__ 
 ### שגיאה
 נזכר ש $e_{i}=(0,\dots,\underbrace{1}_{i},\dots 0)$ ונגדיר __שגיאה__ באינדקס $i$ להיות $u+e_{i}$ . כעת במצב של שגיאה אחת יתקיים $u^{\prime}=u+e_{i}$ כלומר 
 
