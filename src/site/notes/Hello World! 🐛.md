@@ -44,6 +44,10 @@ enjoy 😃😃!!
 - [[Computer Science/Probability/Independence on continuous random variables\|Independence on continuous random variables]]
 - [[Computer Science/Probability/Further Topics on Random Variables\|Further Topics on Random Variables]]
 - [[Computer Science/Probability/Limit Theorems\|Limit Theorems]]
+- [[Computer Science/Probability/Statistics/Descriptive statistics\|Descriptive statistics]]
+- [[Computer Science/Probability/Statistics/Statistical inference basics\|Statistical inference basics]]
+- [[Computer Science/Probability/Statistics/Point statistical estimation\|Point statistical estimation]]
+- [[Computer Science/Probability/Statistics/Confidence interval and principles in hypothesis testing\|Confidence interval and principles in hypothesis testing]]
 - [[Computer Science/Probability/introduction to probability cheat sheat\|introduction to probability cheat sheat]]
 
 { .block-language-dataview}
