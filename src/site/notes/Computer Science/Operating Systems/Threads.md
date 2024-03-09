@@ -29,7 +29,7 @@ __אתגרים:__
 ## Kernel Threads
 * זה thread שמערכת ההפעלה מכירה. 
 * החלפה בין kernel threads מצריך context switch אם כי הוא קל יותר לביצע מהcontext switch בין תהליכים עצמם (צריך להחליך רקק ערכי registers, PC ו stack pointer).
-* הkernel מתזמן בין הthreads הללו (בנוסף ל[[Scheduling\|תזמון ]]בין processes).
+* הkernel מתזמן בין הthreads הללו (בנוסף ל[[Computer Science/Operating Systems/CPU Scheduling\|תזמון ]]בין processes).
 
 __היתרון__ המשמעותי של kernel threads הוא בעובדה שהוא מהווה סוג של תהליך, כלומר מערכת ההפעלה מתזמנת בינהם באותו אופן שבוא היא מתזמנת תהליכים ולכן יכולה להיות מקביליות. המחיר הוא over head של context switch. 
 ## User Threads
