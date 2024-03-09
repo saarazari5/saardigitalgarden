@@ -49,7 +49,7 @@ _terminated:_  מערכת ההפעלה הורסת את התהליך.
 
 התרשים למעלה מתאר את המכונת מצבים שמתארת את מחזור החיים של תהליך. שינויים במצבי התהליך יכולים להשתנות בגלל 
 * [System Call](https://www.knowledgehut.com/blog/web-development/system-calls-in-os)
-* [[Scheduling\|Scheduling]]
+* [[Computer Science/Operating Systems/CPU Scheduling\|CPU Scheduling]]
 * [[Computer Science/Operating Systems/Interrupts\|Interrupts]]
 
 ## Process Control Block
