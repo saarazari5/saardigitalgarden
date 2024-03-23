@@ -76,7 +76,7 @@ class EvalReversePolishNotation {
 ```
 
 ## Time and space complexity
-Considering n = length of input Reverse Polish Expression, $d$ = number of operands/digits, $o$ = number of operators, the time complexity of the above implementation is $O(n)$, since we are scanning the entire string. Time taken by push and pop operations is constant i.e. $O(1)$ constant [[Computer Science/Algorithms/Asymptotic Analysis\|time complexity]].
+Considering n = length of input Reverse Polish Expression, $d$ = number of operands/digits, $o$ = number of operators, the time complexity of the above implementation is $O(n)$, since we are scanning the entire string. Time taken by push and pop operations is constant i.e. $O(1)$ constant [[Computer Science/Algorithms/Asymptotic notations\|time complexity]].
 
 Space complexity = $O(d)$, since we store only operands/digits in the stack and this is the worst case for space complexity in which we push all the operands to the stack, e.g. $2 3 4 * +$.
 
