@@ -11,10 +11,21 @@
 # Hello World! 🐛
 My name is Saar Azari and this is the first door into my digital garden which consists of all the knowledge i tried to gather during university and my free time.
 
-enjoy 😃😃!! 
+enjoy 😃!! 
 
-## computer science 👨‍💻👩‍💻
 
+### programming languages
+- [[Computer Science/Programming Concepts/Programming Languages Principles/OCaml\|OCaml]]
+- [[Computer Science/Programming Concepts/Programming Languages Principles/Structural induction\|Structural induction]]
+- [[Computer Science/Programming Concepts/Programming Languages Principles/Semantics\|Semantics]]
+- [[Computer Science/Programming Concepts/Programming Languages Principles/Lambda calculus\|Lambda calculus]]
+- [[Computer Science/Programming Concepts/Programming Languages Principles/Type Inference\|Type Inference]]
+- [[Computer Science/Programming Concepts/Programming Languages Principles/Logical Programming\|Logical Programming]]
+- [[Computer Science/Programming Concepts/Programming Languages Principles/Javascript Semantics\|Javascript Semantics]]
+- [[Computer Science/Programming Concepts/Programming Languages Principles/Closures\|Closures]]
+- [[Computer Science/Programming Concepts/Programming Languages Principles/Imperative OCaml\|Imperative OCaml]]
+
+{ .block-language-dataview}
 ### Networks
 - [[Computer Science/Networks/The History Of The Internet\|The History Of The Internet]]
 - [[Computer Science/Networks/Computer Networks Intro and Protocol layers\|Computer Networks Intro and Protocol layers]]
@@ -26,7 +37,15 @@ enjoy 😃😃!!
 - [[Computer Science/Networks/Network Layer\|Network Layer]]
 
 { .block-language-dataview}
-### probability 👨🏻‍🏫
+### parallel computing
+- [[Computer Science/Programming Concepts/Mobile Engineering/IOS/Structured Concurrency\|Structured Concurrency]]
+- [[Computer Science/Algorithms/Parallel Algorithms/Parallel Sort\|Parallel Sort]]
+- [[Computer Science/Algorithms/Parallel Algorithms/Parallel Graphs Algorithms\|Parallel Graphs Algorithms]]
+- [[Computer Science/Programming Concepts/Concurrency Programming/Thread Pool\|Thread Pool]]
+- [[Computer Science/Programming Concepts/Concurrency Programming/OpenMP\|OpenMP]]
+
+{ .block-language-dataview}
+### probability
 - [[Computer Science/Probability/Probabilistic models\|Probabilistic models]]
 - [[Computer Science/Probability/conditional probability\|conditional probability]]
 - [[Computer Science/Probability/The Complete Probability Theorem and Bayes' Law\|The Complete Probability Theorem and Bayes' Law]]
@@ -44,15 +63,11 @@ enjoy 😃😃!!
 - [[Computer Science/Probability/Independence on continuous random variables\|Independence on continuous random variables]]
 - [[Computer Science/Probability/Further Topics on Random Variables\|Further Topics on Random Variables]]
 - [[Computer Science/Probability/Limit Theorems\|Limit Theorems]]
-- [[Computer Science/Probability/Statistics/Descriptive statistics\|Descriptive statistics]]
-- [[Computer Science/Probability/Statistics/Statistical inference basics\|Statistical inference basics]]
-- [[Computer Science/Probability/Statistics/Point statistical estimation\|Point statistical estimation]]
-- [[Computer Science/Probability/Statistics/Confidence interval and principles in hypothesis testing\|Confidence interval and principles in hypothesis testing]]
 - [[Computer Science/Probability/introduction to probability cheat sheat\|introduction to probability cheat sheat]]
 
 { .block-language-dataview}
 
-### computer system 💻 💿
+### computer system 
 - [[Computer Science/Computer System/ASCII\|ASCII]]
 - [[Computer Science/Computer System/Array and Data structures in Assembly\|Array and Data structures in Assembly]]
 - [[Computer Science/Computer System/Computer System Cache Memory\|Computer System Cache Memory]]
@@ -72,10 +87,10 @@ enjoy 😃😃!!
 - [[Computer Science/Computer System/Program structure in assembly\|Program structure in assembly]]
 
 { .block-language-dataview}
-### algorithms 👾 ⏰
-- [[Computer Science/Algorithms/Divide and conquer\|Divide and conquer]]
-- [[Computer Science/Algorithms/FFT\|FFT]]
+### algorithms 
 - [[Computer Science/Algorithms/Graphs basic definitions for CS\|Graphs basic definitions for CS]]
+- [[Computer Science/Algorithms/FFT\|FFT]]
+- [[Computer Science/Algorithms/Divide and conquer\|Divide and conquer]]
 - [[Computer Science/Algorithms/Recurrence relation\|Recurrence relation]]
 - [[Computer Science/Algorithms/Asymptotic notations\|Asymptotic notations]]
 - [[Computer Science/Algorithms/Fibonacci algorithm\|Fibonacci algorithm]]
@@ -85,7 +100,6 @@ enjoy 😃😃!!
 - [[Computer Science/Algorithms/greedy algorithms\|greedy algorithms]]
 - [[Computer Science/Algorithms/Prefix Code - Huffman Code\|Prefix Code - Huffman Code]]
 - [[Computer Science/Algorithms/Minimum Spanning Tree\|Minimum Spanning Tree]]
-- [[Computer Science/Algorithms/Disjoint Set Data Structure\|Disjoint Set Data Structure]]
 - [[Computer Science/Algorithms/DFS\|DFS]]
 - [[Computer Science/Algorithms/Single-Source Shortest Paths (SSSP)\|Single-Source Shortest Paths (SSSP)]]
 - [[Computer Science/Algorithms/BFS\|BFS]]
@@ -97,14 +111,11 @@ enjoy 😃😃!!
 - [[Computer Science/Algorithms/Hash\|Hash]]
 - [[Computer Science/Algorithms/probability algorithms basics\|probability algorithms basics]]
 - [[Computer Science/Algorithms/Sorting Algorithms\|Sorting Algorithms]]
-- [[Computer Science/Algorithms/Reverse Polish Notation\|Reverse Polish Notation]]
 - [[Computer Science/Algorithms/Dynamic Programming Problems\|Dynamic Programming Problems]]
-- [[Computer Science/Algorithms/Parallel Algorithms/Parallel Sort\|Parallel Sort]]
-- [[Computer Science/Algorithms/Parallel Algorithms/Parallel Graphs Algorithms\|Parallel Graphs Algorithms]]
 
 { .block-language-dataview}
 
-### Databases 📊
+### Databases 
 - [[Computer Science/Databases/overview of SQL\|overview of SQL]]
 - [[Computer Science/Databases/SQL with Python\|SQL with Python]]
 - [[Computer Science/Databases/Design Theory for Relational Databases\|Design Theory for Relational Databases]]
@@ -118,7 +129,6 @@ enjoy 😃😃!!
 - [[Computer Science/Databases/Query Optimization\|Query Optimization]]
 
 { .block-language-dataview}
-
 ### calculus 📈
 - [[Computer Science/Calculus/The Integral\|The Integral]]
 - [[Computer Science/Calculus/Function series\|Function series]]
@@ -127,14 +137,7 @@ enjoy 😃😃!!
 
 { .block-language-dataview}
 
-## Mobile Development 📞
 
-### IOS 📱
-
-{ .block-language-dataview}
-
-
-__AND MANY MORE TO COME 🥶__
 
 > [!info] 
 >  __disclaimer- those notes are something that i wrote as part of my learning process and they have not been looked at by any officials from my university, if you find any thing that you think is a mistake i will be more than happy to fix it, just send it the mail saarazari5@gmail.com__
