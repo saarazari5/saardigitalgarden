@@ -115,7 +115,7 @@ __שרתי ה Root:__
 ### DNS Redirection 
 טכניקה שנועדה לפזר עומס על שרתים. בהינתן Domain מסויים, יהיו מספר העתקים שלנו כאשר לכל אחד יש IP שונה. שרת ה DNS מחזיר כתובת IP שונה לצורך פיזור העומס, באמצעות אלגוריתם [Round Robin](https://en.wikipedia.org/wiki/Round-robin_scheduling).  
 
-![Screenshot 2024-02-25 at 2.49.40.png|150](/img/user/Assets/Screenshot%202024-02-25%20at%202.49.40.png)
+![Screenshot 2024-02-25 at 2.49.40.png|250](/img/user/Assets/Screenshot%202024-02-25%20at%202.49.40.png)
 ## HTTP 
 Hyper-Text Transfer Protocol. פרוטוקול זה מאפשר לאפליקציות לגשת ולעשות שימוש במשאבי האינטרנט (תמונות, קבצים וכו׳). בפרוטוקול זה כתובת ה URL היא מרכיב הכרחי כדי לקבוע מהו המשאב הרלוונטי שאנחנו רוצים למשוך
 
