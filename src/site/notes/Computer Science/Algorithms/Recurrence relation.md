@@ -20,6 +20,7 @@ sort(array A, int begin, int end):
  pivot = (begin + end)/2 
  Merge(A,begin, pivot, end)	 	 
 ```
+
 we can represent this algorithm as a recurrence relation in the following way: 
 
 $$ T(n) =
@@ -81,8 +82,7 @@ the tree will look something like this:
 * the second part will be the worst case scenario of our function and therefore will be $O$ .
 
 * the __equal__ tree height will be $log_{3}n$ and the __unequal__ tree height will be $log_{2/3}n$ 
-* so as we said the first part [[time complexity\|time complexity]] will be $\Omega(n\log_{3}n)$ and the second part will be $O(n\log_{2/3}n)$ but we know from [[Computer Science/Algorithms/Asymptotic Analysis\|Asymptotic Analysis]] that switching between bases is performed by constant and there for the total time complexity of this function will be $\theta(n\cdot\log n)$    
-
+* so as we said the first part [[Computer Science/Algorithms/Asymptotic notations\|time complexity]] will be $\Omega(n\log_{3}n)$ and the second part will be $O(n\log_{2/3}n)$ but we know from Asymptotic Analysis that switching between bases is performed by constant and there for the total time complexity of this function will be $\theta(n\cdot\log n)$    
 
 #### Recursion tree with more than 2 branches
 lets check the following example: 
@@ -139,7 +139,7 @@ because we know that $T(0)=T(1)=T(2)=T(3)=1$
 now assume $i=\frac{n-1}{3}$ and we now get the following : $T(n)=2^{\frac{n}{3}}\cdot T(1)+2^{\frac{n}{3}+1}-2=2^{\frac{n}{3}}+2^{\frac{n}{3}+1}-2\in \theta(2^{\frac{n}{3}})$  
 
 ### positioning method
- we will guess what is the big $O$ notation and the $\Omega$ notation, by guessing i mean we will assume that there is a constant $C$ according to [[Computer Science/Algorithms/Asymptotic Analysis\|Asymptotic Analysis]] rules. 
+ we will guess what is the big $O$ notation and the $\Omega$ notation, by guessing i mean we will assume that there is a constant $C$ according to [[Asymptotic Analysis\|Asymptotic Analysis]] rules. 
 * lets assume that $T(n)\in O(n^2)$ which means that $\exists \ C,n_0 \ \text{such that: }\forall n\geq n_0\text{,}\ T(n)\leq C\cdot n^2$         
 * proof you assumption with **inductive reasoning** 
 * do the same for $\Omega$ if possible.
