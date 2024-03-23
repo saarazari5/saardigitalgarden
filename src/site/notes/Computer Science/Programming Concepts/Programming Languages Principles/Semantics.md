@@ -2,6 +2,7 @@
 {"dateCreated":"2024-01-20 21:51","tags":["programming_language"],"pageDirection":"rtl","dg-publish":true,"permalink":"/computer-science/programming-concepts/programming-languages-principles/semantics/","dgPassFrontmatter":true}
 ---
 
+
 # סמנטיקה
 חשוב שנדע להבדיל בין סינתקס של שפה לבין שמייצג את המבנה של השפה, סדר מילים וסימנים והרכבת משפטים שמהווים תוכנית מבחינת נכונות שלהם בסדר המילים. 
 הסמנטיקה היא המשמעות של אותם המילים, מה הן אומרות מבחינת התוכנית שלנו. 
