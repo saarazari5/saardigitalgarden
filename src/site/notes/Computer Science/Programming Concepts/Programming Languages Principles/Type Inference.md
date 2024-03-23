@@ -144,6 +144,8 @@ and unify (s: (term * term)list) = match s with
 			let t1 = unify_one (apply t2 x)(apply t2 y) in t1@t2;;
 ```
 
+ובפסודו קוד זה האלגוריתם לקביעת הטיפוסים
+![Pasted image 20240322221846.png](/img/user/Assets/Pasted%20image%2020240322221846.png)
 
 נסתכל על דוגמה של ה ביטוי $\alpha \to \alpha$. לפי הקוד זה יהיה מהצורה `Term("->", [Var ('a'), Var('a')]`. 
 
@@ -162,3 +164,25 @@ and unify (s: (term * term)list) = match s with
 >האלגוריתם הזה הוא לא היחיד שפותר את בעיית היוניפיקציה, האלגוריתם הזה מוצא את מה שנקרא Most General Unifier (MGU) וכל פתרון אחר אפשר למצוא באמצעות MGU . נאמר ש $\sigma$ היא יותר ״כללית״ מ $\sigma'$ אם קיימת $\sigma''$ כך ש $\sigma'=\sigma'' \circ \sigma$ 
 >
 
+__דוגמה__
+let f x = 2+x . 
+1) נשים טיפוסים גנריים לכל משתנה
+
+$$\text{ let f}\color{red}{ :t_{1}}\color{white} \ \ \text{x} \color{red}:t_{2}\color{white} = (2\color{red}:t_{3}\color{white}\text{+}\color{red}:t_{4}\color{white})\color{red}:t_{5}$$
+
+* משתנה שמופיע מספר פעמים בעל אותו טיפוס
+* יש להוסיף טיפוס עבור הפלט של התוכנית
+* פונקציה תמיד תהיה מטיפוס $domain \to range$ 
+* מבחינה פורמלית כדי למצוא את כל המשתנים והפונקציות משתמשים בעץ הגזירה של הביטוי (ניתן להחשיב את יצירת עץ הגזירה כשלב נוסף באלגוריתם)
+
+2) קובעים את האילוצים 
+$$\displaylines{
+t_{1} = t_{2}\to t_{5} \\
+t_{4} = t_{3}\to t_{2}\to t_{5}\\
+t_{4} = int \to int \to int\\
+t_{3} = int
+}$$
+
+3) נפתור את האילוצים, מהמערכת הנ״ל אפשר לקבוע ש $t_{4}= int \to t_{2}\to t_{5}$ . אבל גם מאיך ש $t_{4}$ מוגדר אפשר להסיק כי $t_{2}=int$ וגם $t_{5}=int$ . סך הכל נקבל $f:int \to int$ .
+
+4) קביעת הטיפוס של הפונקציה לפי מה שאמרנו למעלה $f:int \to int$ .
