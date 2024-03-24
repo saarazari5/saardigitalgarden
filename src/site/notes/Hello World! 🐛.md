@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"pageDirection":"ltr","dg-home":"true","permalink":"/hello-world/","tags":["gardenEntry"],"dgPassFrontmatter":true}
+{"dg-publish":true,"pageDirection":"ltr","dg-home":true,"permalink":"/hello-world/","tags":["gardenEntry"],"dgPassFrontmatter":true}
 ---
 
 
@@ -8,13 +8,13 @@
 [LinkedIn](https://www.linkedin.com/in/saar-azari-7735251b9/)
 [Github](https://github.com/saarazari5)
 
-# Hello World! 🐛
+# Hello World!
 My name is Saar Azari and this is the first door into my digital garden which consists of all the knowledge i tried to gather during university and my free time.
 
-enjoy 😃!! 
+enjoy! 
 
 
-### programming languages
+### Programming Languages
 - [[Computer Science/Programming Concepts/Programming Languages Principles/OCaml\|OCaml]]
 - [[Computer Science/Programming Concepts/Programming Languages Principles/Structural induction\|Structural induction]]
 - [[Computer Science/Programming Concepts/Programming Languages Principles/Semantics\|Semantics]]
@@ -71,20 +71,20 @@ enjoy 😃!!
 - [[Computer Science/Computer System/ASCII\|ASCII]]
 - [[Computer Science/Computer System/Array and Data structures in Assembly\|Array and Data structures in Assembly]]
 - [[Computer Science/Computer System/Computer System Cache Memory\|Computer System Cache Memory]]
+- [[Computer Science/Computer System/Computer system basics\|Computer system basics]]
+- [[Computer Science/Computer System/Disassembly - basics\|Disassembly - basics]]
 - [[Computer Science/Computer System/Functions in assembly\|Functions in assembly]]
 - [[Computer Science/Computer System/Little and Big Endian\|Little and Big Endian]]
-- [[Computer Science/Computer System/Disassembly - basics\|Disassembly - basics]]
-- [[Computer Science/Computer System/Unicode\|Unicode]]
+- [[Computer Science/Computer System/Program structure in assembly\|Program structure in assembly]]
 - [[Computer Science/Computer System/UTF-8\|UTF-8]]
+- [[Computer Science/Computer System/Unicode\|Unicode]]
+- [[Computer Science/Computer System/base convertors\|base convertors]]
 - [[Computer Science/Computer System/basic commands in assembly\|basic commands in assembly]]
 - [[Computer Science/Computer System/control flow in assembly\|control flow in assembly]]
 - [[Computer Science/Computer System/gdb\|gdb]]
 - [[Computer Science/Computer System/signed Integers in Binary\|signed Integers in Binary]]
-- [[Computer Science/Computer System/Computer system basics\|Computer system basics]]
-- [[Computer Science/Computer System/x86-64 Assembly\|x86-64 Assembly]]
 - [[Computer Science/Computer System/wide-character\|wide-character]]
-- [[Computer Science/Computer System/base convertors\|base convertors]]
-- [[Computer Science/Computer System/Program structure in assembly\|Program structure in assembly]]
+- [[Computer Science/Computer System/x86-64 Assembly\|x86-64 Assembly]]
 
 { .block-language-dataview}
 ### algorithms 
@@ -136,7 +136,6 @@ enjoy 😃!!
 - [[Computer Science/Calculus/two variables functions\|two variables functions]]
 
 { .block-language-dataview}
-
 
 
 > [!info] 
