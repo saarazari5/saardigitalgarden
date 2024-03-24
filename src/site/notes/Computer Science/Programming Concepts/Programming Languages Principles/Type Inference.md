@@ -3,7 +3,7 @@
 ---
 
 # Type inference
-ב[[Computer Science/Programming Concepts/Programming Languages Principles/OCaml\|OCaml]] אחד הפיצרים שהקומפיילר נותן הוא type inference. הפיצ׳ר הזה מאפשר למתכנת לא להצהיר על המשתנה ישירות אלא לתת לקומפיילר באמצעות כללי היסק לפרש את הטיפוס בעצמו. 
+ב[[Computer Science/Programming Concepts/Programming Languages Principles/OCaml\|OCaml]] אחד הפיצרים שהקומפיילר נותן הוא type inference. הפיצ׳ר הזה מאפשר למתכנת לא להצהיר על המשתנה ישירות אלא לתת לקומפיילר באמצעות כללי היסק לפרש את הטיפוס בעצמו. Type inference נותן לנו את היכולת להמיר תחשיב למדא ללא טיפוסים לתחשיב למדא עם טיפוסים וככה לקבל את הפיצ׳ר של [type safety](https://en.wikipedia.org/wiki/Type_safety).
 
 נבין את כיצד עובד המנגנון של הסקת טיפוסים על מקרה מצומצם של השפה. נגדיר אותו כ $\lambda \text{OCaml}$, שילוב של [[Computer Science/Programming Concepts/Programming Languages Principles/Lambda calculus\|תחשיב למדא]] ואוקמל .בשפה זאת הביטויים מוגדרים כך 
 
@@ -17,7 +17,7 @@ __הגדרה:__
 	- אם T,S טיפוסים אז כך גם $T\to S$ .
 
 __הגדרה:__
-יחס ההטפסה $\Gamma\vdash t:T$ מוגדר כך -
+יחס ההטפסה של $\lambda OCaml$ $\Gamma\vdash t:T$ מוגדר כך -
 
 $$\displaylines{
 \text{O-VAR}: \dfrac{x:T\in \Gamma}{\Gamma\vdash x: T}\\ \\
@@ -168,7 +168,7 @@ __דוגמה__
 let f x = 2+x . 
 1) נשים טיפוסים גנריים לכל משתנה
 
-$$\text{ let f}\color{red}{ :t_{1}}\color{white} \ \ \text{x} \color{red}:t_{2}\color{white} = (2\color{red}:t_{3}\color{white}\text{+}\color{red}:t_{4}\color{white})\color{red}:t_{5}$$
+$$\text{ let f}\textcolor{red}{ :t_{1}} \ \ \text{x} \textcolor{red}{:t_{2}} = (2\textcolor{red}{:t_{3}}\text{+}\textcolor{red}{:t_{4}}  x)\color{red}:t_{5}$$
 
 * משתנה שמופיע מספר פעמים בעל אותו טיפוס
 * יש להוסיף טיפוס עבור הפלט של התוכנית
@@ -186,3 +186,80 @@ t_{3} = int
 3) נפתור את האילוצים, מהמערכת הנ״ל אפשר לקבוע ש $t_{4}= int \to t_{2}\to t_{5}$ . אבל גם מאיך ש $t_{4}$ מוגדר אפשר להסיק כי $t_{2}=int$ וגם $t_{5}=int$ . סך הכל נקבל $f:int \to int$ .
 
 4) קביעת הטיפוס של הפונקציה לפי מה שאמרנו למעלה $f:int \to int$ .
+
+נחזור לפסודו קוד של של Hindley-milner type inference ממקודם
+
+![Screenshot 2024-03-24 at 19.05.55.png](/img/user/Assets/Screenshot%202024-03-24%20at%2019.05.55.png)
+
+ננסה להבין איך האלגוריתם עובד על הדוגמה ממקודם בתצורת למדה כלומר $f=\lambda x.x+2$ :
+
+![Screenshot 2024-03-24 at 19.07.41.png](/img/user/Assets/Screenshot%202024-03-24%20at%2019.07.41.png)
+
+ניתן לראות שמה [[Computer Science/Programming Concepts/Programming Languages Principles/Semantics#AST\|AST]] חילצו את כל האילוצים. כעת עם האלגוריתם unify ניתן לפתור את האילוצים באופן הבא- 
+1) כל על טיפוס ועל המשוואה שלו
+	1) חפש משוואה אחרת המכילה את הטיפוס
+	2) אם מצאת החלף את הטיפוס במשוואה שהתקבלה.
+![Pasted image 20240324191005.png|200](/img/user/Assets/Pasted%20image%2020240324191005.png)
+![Screenshot 2024-03-24 at 19.09.37.png|200](/img/user/Assets/Screenshot%202024-03-24%20at%2019.09.37.png)
+![Screenshot 2024-03-24 at 19.10.35.png|200](/img/user/Assets/Screenshot%202024-03-24%20at%2019.10.35.png)
+![Pasted image 20240324191107.png|200](/img/user/Assets/Pasted%20image%2020240324191107.png)
+![Screenshot 2024-03-24 at 19.11.46.png|200](/img/user/Assets/Screenshot%202024-03-24%20at%2019.11.46.png)
+
+ניתן לראות בסדרת הפעולות הנ״ל שכל ריצה חיפשנו את המקומות שבהם נמצא הטיפוס הזה וממש החלפנו אותו בהשמה. למשל עבור $T_{3}=T_{4}\to T_{2}$ מצאנו את $T_{3}$ ב $T_{5}$ וביצענו הצבה וכעת $T_{5}=T_{1}\to T_{3}=T_{1}\to T_{4}\to T_{2}$ . ככה המשכנו להציב שוב ושוב עד שהגענו לביטוי האחרון שבו כבר היה כלל החלפה. כיוון ש $T_{1}\to nat\to T_{2}=nat \to nat \to nat$ אז יכלנו להחליף את $T_{1},T_{2}$ ב nat בהתאמה. 
+
+בצורה פורמלית:
+![Screenshot 2024-03-24 at 19.15.08.png](/img/user/Assets/Screenshot%202024-03-24%20at%2019.15.08.png)
+
+נסתכל על דוגמה נוספת $\text{let f x = 5.+x}$ .
+נבצע השמה של טיפוסים גנריים לכל התוכנית
+![Screenshot 2024-03-24 at 19.21.02.png|200](/img/user/Assets/Screenshot%202024-03-24%20at%2019.21.02.png)
+
+נסתכל על האילוצים 
+
+$$\displaylines{
+t_{1} =t_{2}\to t_{5} \\ t_{4}= t_{3}\to t_{2}\to t_{5}\\ t_{4}= int \to int \to int\\
+t_{3}=float 
+}$$
+
+כעת אם ננסה לפתור אותם נקבל ש $t_{4}=float \to t_{2} \to t_{5}$ וגם $t_{4} = \text{int}\to \text{int}\to \text{int}$ שזה conflict בין הטיפוסים ולכן type error.
+
+
+__דוגמה__
+$\text{let f x y = x y}$ . 
+1) השמת טיפוסים 
+ ![Screenshot 2024-03-24 at 19.29.01.png|300](/img/user/Assets/Screenshot%202024-03-24%20at%2019.29.01.png)
+ 2) אילוצים : $t_{1} = t_{2}\to t_{3}\to t_{4}$ וגם $t_{2}=t_{3}\to t_{4}$ 
+ 3) פתרון לאילוצים: $t_{1}=(t_{3}\to t_{4})\to t_{3}\to t_{4}$ 
+ 4) סה״כ $f:(a\to b)\to a\to b$ , מצב כזה נקרא type variable כלומר פונקציה גנרית.
+
+__רקורסיה__ 
+נסתכל על הקוד הבא:
+```OCaml
+let rec length xs = 
+	match xs with 
+		| [] -> 0
+		| (h::t) -> 1 + length t
+```
+
+כאשר עובדים עם pattern match מסתכלים על כל מקרה בנפרד, הטיפוסים גם של __כל מקרה__ צריכים להיות שקולים באופן הבא
+1) הטיפוס של כל אחד מהקלטים (צד שמאל של החץ) צריכים להיות שווים
+2) הטיפוס של כל אחד מהפלטים (צד ימין של החץ צריך להיות שווה)
+
+נשים טיפוסים לקטע הקוד הנ״ל
+
+![Screenshot 2024-03-24 at 20.12.19.png|300](/img/user/Assets/Screenshot%202024-03-24%20at%2020.12.19.png)
+
+נשים לב שאת הרשימה שמנו מראש בטיפוס עטוף ב $[]$ כי אנחנו יודעים שהטיפוס הוא רשימה מסוג של משהו.
+
+נבנה את האילוצים
+![Pasted image 20240324201744.png|350](/img/user/Assets/Pasted%20image%2020240324201744.png)
+
+1) קל להבין למה $t_{1}$ הוא פונקציה שהקלט שלה $t_{2}$ והפלט הוא $t_{3}$
+2) $t_{2}$ הוא טיפוס של רשימה מסוג $t_{4}$ בגלל ה case הראשון וגם מטיפוס $t_{7}$ בגלל ה case השני.
+3) בגלל ערך החזרה של המקרה הראשון - 0 , ניתן להגיד ש $t_{3}$ הוא שקול ל int. 
+4) בנוסף $t_{3}=t_{8}$ בגלל אותו הסבר
+5) בגלל פעולת ה apply אנחנו יודעים שמצד ימין יש רשימה ומצד שמאל יש אלמנט שהוא מהטיפוס של איבר ברשימה.
+6) length היא פונקציה בגלל המקרה השני שהפלט שלה הוא int.
+
+
+כך ניתן לפתור את האילוצים ולגלות ש $length:[a]\to int$ .
