@@ -37,15 +37,15 @@ enjoy!
 - [[Computer Science/Networks/Network Layer\|Network Layer]]
 
 { .block-language-dataview}
-### parallel computing
-- [[Computer Science/Programming Concepts/Mobile Engineering/IOS/Structured Concurrency\|Structured Concurrency]]
+### Parallel Computing
 - [[Computer Science/Algorithms/Parallel Algorithms/Parallel Sort\|Parallel Sort]]
 - [[Computer Science/Algorithms/Parallel Algorithms/Parallel Graphs Algorithms\|Parallel Graphs Algorithms]]
 - [[Computer Science/Programming Concepts/Concurrency Programming/Thread Pool\|Thread Pool]]
 - [[Computer Science/Programming Concepts/Concurrency Programming/OpenMP\|OpenMP]]
+- [[Computer Science/Computer System/SIMD\|SIMD]]
 
 { .block-language-dataview}
-### probability
+### Probability
 - [[Computer Science/Probability/Probabilistic models\|Probabilistic models]]
 - [[Computer Science/Probability/conditional probability\|conditional probability]]
 - [[Computer Science/Probability/The Complete Probability Theorem and Bayes' Law\|The Complete Probability Theorem and Bayes' Law]]
@@ -67,7 +67,7 @@ enjoy!
 
 { .block-language-dataview}
 
-### computer system 
+### Computer System 
 - [[Computer Science/Computer System/ASCII\|ASCII]]
 - [[Computer Science/Computer System/Array and Data structures in Assembly\|Array and Data structures in Assembly]]
 - [[Computer Science/Computer System/Computer System Cache Memory\|Computer System Cache Memory]]
@@ -85,9 +85,10 @@ enjoy!
 - [[Computer Science/Computer System/signed Integers in Binary\|signed Integers in Binary]]
 - [[Computer Science/Computer System/wide-character\|wide-character]]
 - [[Computer Science/Computer System/x86-64 Assembly\|x86-64 Assembly]]
+- [[Computer Science/Computer System/SIMD\|SIMD]]
 
 { .block-language-dataview}
-### algorithms 
+### Algorithms 
 - [[Computer Science/Algorithms/Graphs basic definitions for CS\|Graphs basic definitions for CS]]
 - [[Computer Science/Algorithms/FFT\|FFT]]
 - [[Computer Science/Algorithms/Divide and conquer\|Divide and conquer]]
