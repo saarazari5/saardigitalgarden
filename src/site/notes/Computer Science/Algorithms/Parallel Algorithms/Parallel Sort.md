@@ -534,7 +534,7 @@ centralized dynamic load balancing - תהליך המאסטר מחזיק אוסף
 
 ![Pasted image 20240219022723.png|350](/img/user/Assets/Pasted%20image%2020240219022723.png)
 
-בצורה מקבילית יהיה לנו $P_{i}$ לכל איבר $x_{i}$ חוץ מ $x_{0}$ כי אותו לא צריך לסכום. נעשה משהו שמזכיר את הרעיון של horizontal addition ב [[SIMD\|SIMD]]. הפסודו קוד יראה כך 
+בצורה מקבילית יהיה לנו $P_{i}$ לכל איבר $x_{i}$ חוץ מ $x_{0}$ כי אותו לא צריך לסכום. נעשה משהו שמזכיר את הרעיון של horizontal addition ב [[Computer Science/Computer System/SIMD\|SIMD]]. הפסודו קוד יראה כך 
 
 ![Pasted image 20240219022706.png|350](/img/user/Assets/Pasted%20image%2020240219022706.png)
 
