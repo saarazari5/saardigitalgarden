@@ -193,12 +193,12 @@ $$isNotHalting := \lambda f. Halt(f,f) \ (\Omega) \  True$$
 
 ==המסקנה היא שלא קיימת פונקציה Halt.==
 
-## רקרוסיה
+## רקורסיה
 כעת נגדיר את הקומבינטור Y 
 
 $$rec = Y=\lambda f.(\lambda x .f(x\ x))(\lambda x .f(x \ x))$$
 
-למה זה בעצם מהווה ריקורסיה? 
+למה זה בעצם מהווה רקורסיה? 
 ![Screenshot 2024-02-13 at 15.58.30.png](/img/user/Assets/Screenshot%202024-02-13%20at%2015.58.30.png)
 בעצם Y מאפשר לנו להעביר כקלט פונקציה אחרת ולהפעיל אותה בצורה אינסופית. על הפונקציה שמעבירים לקבוע מה יהיה התנאי העצירה של הרקורסיה.
 
@@ -213,7 +213,7 @@ $$\lambda f.\lambda n.\text{ test (realeq n c1)c1(times n f pred n)}$$
 
 $$\displaylines{
 Fv(x)=\{x\} \\
-Fv(\lambda x.t)=Fv(x)-\{x\}\\
+Fv(\lambda x.t)=Fv(t)-\{x\}\\
 Fv(t_{1},t_{2})= Fv(t_{1})\cup Fv(t_{2})
 
 }$$
@@ -241,6 +241,8 @@ $$(\lambda y.x)[x\mapsto y]=\lambda y.y$$
 
 כאן הפכנו ביטוי שאינו קומבינטור לקומבינטור.
 
+בצורה יותר מורחבת נקבל:
+![Pasted image 20240325180406.png](/img/user/Assets/Pasted%20image%2020240325180406.png)
 ## סמנטיקה לא דטרמינסטית
 הסמנטיקה של רדוקציית בטא היא לא דטרמינסטית למשל :
 
@@ -348,7 +350,7 @@ $\vdash$ מוגדר לפי הכללים הבאים :
 	
 ה. $T-APP$ $\dfrac{\Gamma\vdash t_{1}:T_{11}\to T_{12} \ \Gamma\vdash t_{2}:T_{11}}{\Gamma\vdash t_{1}t_{2}:T_{12}}$
 
-ו. $T-ABS$ $\dfrac{\Gamma,x:T_{1}\vdash t_{2}:T_{2}}{\Gamma\vdash \lambda x:T_{1}.t_{2}:T_{1}\to T_{2}}$
+ו. $T-ABS$ $\dfrac{\Gamma,x:T_{1}\vdash t_{2}:T_{2}}{\Gamma\vdash (\lambda x:T_{1}.t_{2}):T_{1}\to T_{2}}$
 כאשר אין ב$\Gamma$ ביטוי מהצורה $\lambda x...$ במצב זה מפעילים כלל אלפה. הסימון $\Gamma,x:T_{1}$ שקול ל $\Gamma\cup\{x:T_{1}\}$ .
 
 
@@ -548,6 +550,3 @@ $$P\wedge (Q\vee R)\to (P\wedge Q)\vee (P\wedge R)$$
 $$f:P+(Q\times R)\to (P+Q)\times (P+R)$$
 
 כעת נוכל להראות שזה תיאותולוגיה אם נראה עת גזירה שמראה שהטיפוס של $f$ הוא אמת.
-
-
-
