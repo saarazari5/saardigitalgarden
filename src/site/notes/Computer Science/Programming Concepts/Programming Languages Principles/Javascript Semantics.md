@@ -117,14 +117,14 @@ function makeCounter() {
 אמרנו שאחד היכולות של [[Computer Science/Programming Concepts/Programming Languages Principles/Closures\|Closures]] הוא היכולת להסתיר מידע של הפונקציה. כאן למשל עבור כל קריאה לmakeCounter יש לנו בתוך הscope של הפונקציה את המשתנה counter שהוא נגיש רק בתוך ה scope הזה. כל קריאה ל makeCounter תייצר scope חדש עם counter חדש אבל כל עוד נמשיך לקרוא לאותו make הcounter יגדל (ככה ניתן למדוד את מספר הקריאות לפונקציה למשל)
 
 דוגמה נוספת:
-![Pasted image 20240323023717.png|250](/img/user/Assets/Pasted%20image%2020240323023717.png)
+![Pasted image 20240323023717.png|400](/img/user/Assets/Pasted%20image%2020240323023717.png)
 
 המשתנה i מקושר פעם אחת לפונקציה ולכן כל הערכים שמתקבלים הם 10. בגלל שvar עובר hoisting לתחילת הפונקציה אז i הוא בסקופ של constfuncs ולכן ערך החזרה מכל הפונקציות במערך יהיה 10. קל להתבלבל ולחשוב שמדובר ב dynamic scope אבל עדיין מדובר ב static scope כי מה שקורה זה שפשוט הסביבה שבה הפונקציה הוגדרה היא הסביבה של constfuncs שבה i=10 בסיום הריצה של הפונקציה. אם js הייתה עובדת בשיטת dynamic scope היינו מקבלים שגיאה כי בסביבה שבה הפונקציה נקראת אין משתנה i בכלל.
 
 __איך נתקן?__
 נוכל ליצור closure חדש לכל משתנה i. 
 
-![Pasted image 20240323025035.png](/img/user/Assets/Pasted%20image%2020240323025035.png)
+![Pasted image 20240323025035.png|400](/img/user/Assets/Pasted%20image%2020240323025035.png)
 
 בעצם יצרנו פה scope חדש עבור i כאשר העברנו אותו כקלט ל g. בגלל שהעברנו את i כקלט לפונקציה חדשה by value אז עכשיו נשמר עבור כל $funcs[i]$ הערך i המתאים. 
 
