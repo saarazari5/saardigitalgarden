@@ -1,5 +1,5 @@
 ---
-{"dateCreated":"2022-05-06 01:17","tags":["swift","concurrency"],"pageDirection":"ltr","dg-publish":true,"permalink":"/computer-science/programming-concepts/mobile-engineering/ios/structured-concurrency/","dgPassFrontmatter":true}
+{"dateCreated":"2022-05-06 01:17","tags":["swift"],"pageDirection":"ltr","dg-publish":true,"permalink":"/computer-science/programming-concepts/mobile-engineering/ios/structured-concurrency/","dgPassFrontmatter":true}
 ---
 
 
