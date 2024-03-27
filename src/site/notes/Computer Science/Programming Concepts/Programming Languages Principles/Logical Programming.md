@@ -386,7 +386,7 @@ $$\text{H :- } B_{1},B_{2},\dots ,B_{m} , !,\dots B_{n}$$
 כדי לתקן את הדוגמה הקודמת נעשה 
 
 ```prolog
-alert(X, normal) :- X<3 .!
+alert(X, normal) :- X<3 !.
 alert(X, alert1) :- X>3, X<6 !.
 alert(X, alert2) :- X>6 !.
 ```
