@@ -74,7 +74,7 @@ $$\sigma(\alpha_{fun \ x\to x})= \alpha \to \alpha= \sigma(\alpha_{y})\to \sigma
 
 __הגדרה:__ יהי t ביטוי ו $\beta$ פונקציה שמתאימה לכל תת ביטוי $t'$ של t את משתנה הטיפוס המתאים לאחד המופעים של $t'$ ותהי $\alpha$ החלפה שמאחדת את $A_{t}$ אז 
 
-$$\Gamma_{\alpha}^{\beta}= \{ x: \sigma(\beta(x)) \ \ | \ \ x\in \text{Vars(t)}\}$$
+$$\Gamma_{\sigma}^{\beta}= \{ x: \sigma(\beta(x)) \ \ | \ \ x\in \text{Vars(t)}\}$$
 
 
 __משפט:__ $\Gamma_{\sigma}^{\beta}$ ו $\sigma \circ \beta$ הם הפתרון לבעיית ההטפסה של t. בצורה פורמלית: יהי $t$ ביטוי ו $\beta,\sigma$ כמו לעיל אז $\Gamma_{\sigma}^{\beta}\vdash t': \sigma(\beta(t'))$ 
@@ -145,7 +145,7 @@ and unify (s: (term * term)list) = match s with
 ```
 
 ובפסודו קוד זה האלגוריתם לקביעת הטיפוסים
-![Pasted image 20240322221846.png](/img/user/Assets/Pasted%20image%2020240322221846.png)
+![Pasted image 20240322221846.png|400](/img/user/Assets/Pasted%20image%2020240322221846.png)
 
 נסתכל על דוגמה של ה ביטוי $\alpha \to \alpha$. לפי הקוד זה יהיה מהצורה `Term("->", [Var ('a'), Var('a')]`. 
 
@@ -189,11 +189,11 @@ t_{3} = int
 
 נחזור לפסודו קוד של של Hindley-milner type inference ממקודם
 
-![Screenshot 2024-03-24 at 19.05.55.png](/img/user/Assets/Screenshot%202024-03-24%20at%2019.05.55.png)
+![Screenshot 2024-03-24 at 19.05.55.png|400](/img/user/Assets/Screenshot%202024-03-24%20at%2019.05.55.png)
 
 ננסה להבין איך האלגוריתם עובד על הדוגמה ממקודם בתצורת למדה כלומר $f=\lambda x.x+2$ :
 
-![Screenshot 2024-03-24 at 19.07.41.png](/img/user/Assets/Screenshot%202024-03-24%20at%2019.07.41.png)
+![Screenshot 2024-03-24 at 19.07.41.png|400](/img/user/Assets/Screenshot%202024-03-24%20at%2019.07.41.png)
 
 ניתן לראות שמה [[Computer Science/Programming Concepts/Programming Languages Principles/Semantics#AST\|AST]] חילצו את כל האילוצים. כעת עם האלגוריתם unify ניתן לפתור את האילוצים באופן הבא- 
 1) כל על טיפוס ועל המשוואה שלו
@@ -208,7 +208,7 @@ t_{3} = int
 ניתן לראות בסדרת הפעולות הנ״ל שכל ריצה חיפשנו את המקומות שבהם נמצא הטיפוס הזה וממש החלפנו אותו בהשמה. למשל עבור $T_{3}=T_{4}\to T_{2}$ מצאנו את $T_{3}$ ב $T_{5}$ וביצענו הצבה וכעת $T_{5}=T_{1}\to T_{3}=T_{1}\to T_{4}\to T_{2}$ . ככה המשכנו להציב שוב ושוב עד שהגענו לביטוי האחרון שבו כבר היה כלל החלפה. כיוון ש $T_{1}\to nat\to T_{2}=nat \to nat \to nat$ אז יכלנו להחליף את $T_{1},T_{2}$ ב nat בהתאמה. 
 
 בצורה פורמלית:
-![Screenshot 2024-03-24 at 19.15.08.png](/img/user/Assets/Screenshot%202024-03-24%20at%2019.15.08.png)
+![Screenshot 2024-03-24 at 19.15.08.png|400](/img/user/Assets/Screenshot%202024-03-24%20at%2019.15.08.png)
 
 נסתכל על דוגמה נוספת $\text{let f x = 5.+x}$ .
 נבצע השמה של טיפוסים גנריים לכל התוכנית
@@ -238,7 +238,7 @@ __רקורסיה__
 let rec length xs = 
 	match xs with 
 		| [] -> 0
-		| (h::t) -> 1 + length t
+		| (h :: t) -> 1 + length t
 ```
 
 כאשר עובדים עם pattern match מסתכלים על כל מקרה בנפרד, הטיפוסים גם של __כל מקרה__ צריכים להיות שקולים באופן הבא
