@@ -293,3 +293,7 @@ __הרחבת מודול__
 ![Screenshot 2024-03-23 at 13.14.39.png|250](/img/user/Assets/Screenshot%202024-03-23%20at%2013.14.39.png)
 
 עם הסינתקס include List יצרנו מעצם הרחב למודול של List. זה נקרא extensions, זה קונספט שיש אותו במספר שפות תכנות. במקרה הזה הפעולה לייצר מודול חדש שנקרא Extension.List ותוסיף את הפונקציה הזאת לשם. 
+
+
+
+![Pasted image 20240328171124.png](/img/user/Assets/Pasted%20image%2020240328171124.png)
