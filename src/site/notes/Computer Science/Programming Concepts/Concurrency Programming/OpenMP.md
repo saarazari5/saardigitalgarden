@@ -345,7 +345,6 @@ __End of loop barrier:__
 
 ![Pasted image 20240308214759.png|350](/img/user/Assets/Pasted%20image%2020240308214759.png)
 
-
 ### Reduction 
 נסתכל על הקוד הבא
 ```C
