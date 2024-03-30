@@ -2,8 +2,6 @@
 {"dateCreated":"2023-02-07 15:17","tags":["algorithms","computer_science"],"pageDirection":"rtl","dg-publish":true,"permalink":"/computer-science/algorithms/sorting-algorithms/","dgPassFrontmatter":true}
 ---
 
-
-
 # Sorting Algorithms
 
 ## שיטות מיון וחסמים תחתונים 
@@ -55,7 +53,6 @@ class InsertionSort {
 		}
 	}
 ```
-
 ## bubble sort
 האלגוריתם הכי פשוט ונאיבי, 
 רצים בלולאה כפולה, ועל כל איבר מקדמים אותו למיקומו המתאים באוסף, האלגוריתם לא מתאים לאוסף גדול של מידע כי הוא חסום ב $\Omega(n^2)$ . גם אם המערך ממויין. כמו כן זה מיון יציב.
