@@ -3,7 +3,7 @@
 ---
 
 # תכנות ב Sockets 
-צורת התקשורת ב[[Computer Science/Programming Concepts/Server side\|שרת-לקוח]] היא צורת התקשורת הנפוצה ביותר באינטרנט. היא נמצאת כמעט בכל תוכנה במחשב שלנו. 
+צורת התקשורת ב[[Computer Science/Programming Concepts/FullStack/Server side\|שרת-לקוח]] היא צורת התקשורת הנפוצה ביותר באינטרנט. היא נמצאת כמעט בכל תוכנה במחשב שלנו. 
 כדי שצורת תקשורת כזאת תעבוד יש צורת בממשק שמאפשר לחבר בין end systems ללא תלות בחומרה שלהם. הממשק הזה נקרא __Socket__.
 
 socket הוא נקודת קצה של חיבור בין שני רכיבים. הצינור הוא [[Computer Science/Networks/Computer Networks Intro and Protocol layers#ארכיטקטורת שכבות\|מודל השכבות]] ונקודות הקצה הן הsockets. 
