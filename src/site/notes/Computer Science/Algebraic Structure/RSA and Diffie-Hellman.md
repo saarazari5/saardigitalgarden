@@ -2,7 +2,7 @@
 {"dateCreated":"2023-02-28 10:58","tags":["abstract_algebra","computer_science"],"pageDirection":"rtl","dg-publish":true,"permalink":"/computer-science/algebraic-structure/rsa-and-diffie-hellman/","dgPassFrontmatter":true}
 ---
 
-
+ 
 # RSA 
 דוגמה לשימוש מעשי ב[[Computer Science/Algebraic Structure/groups\|תורת החבורות]] הוא מערכת הצפנה RSA. מערכת זו מממשת שיטה ל[הצפנה אסימטרית](https://he.wikipedia.org/wiki/%D7%9E%D7%A4%D7%AA%D7%97_%D7%A6%D7%99%D7%91%D7%95%D7%A8%D7%99) כלומר מערכת מבוססת מפתח ציבורי.
 
