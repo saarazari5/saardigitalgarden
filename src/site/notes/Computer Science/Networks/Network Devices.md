@@ -6,13 +6,13 @@
 ## Hub
 Hub משמש בדרך כלל לחיבור מקטעים של LAN (רשת מקומית). הוא מכיל מספר Ports. כאשר פקטה מגיעה ליציאה אחת, היא מועתקת לפורטים האחרים כך שכל מקטעי ה-LAN יכולים לראות את כל החבילות. Hub פועל כנקודת חיבור משותפת למכשירים ברשת. המשמעות היא שבאחריות כל מכשיר המחובר ב Hub לבדוק האם הפקטה מיועדת אליו או לא.
 
-![Screenshot 2024-01-18 at 18.34.53.png|400](/img/user/Assets/Screenshot%202024-01-18%20at%2018.34.53.png)
+![Screenshot 2024-01-18 at 18.34.53.png|250](/img/user/Assets/Screenshot%202024-01-18%20at%2018.34.53.png)
 ## Switch
 switch פועל ב[[Computer Science/Networks/Computer Networks Intro and Protocol layers#Link Layer\|שכבת הלינק]] (שכבה 2) ולעיתים [[Computer Science/Networks/Computer Networks Intro and Protocol layers#Network Layer\|בשכבת הרשת]] (שכבה 3) של OSI ולכן תומך בכל פרוטוקול פקטות. רשתות LAN שמשתמשות Switch כדי להצטרף למקטעים נקראות Switched LAN. רכיב זה הוא רכיב שמנתב את הפקטות בין מקטעי ה LAN רק ליעד המתאים. 
 
 ה Switch עושה זאת באמצעות Switch table שבו מוצמד לכל פורט [כתובת MAC](https://en.wikipedia.org/wiki/MAC_address)של המכשיר שמחובר אליה. 
 
-![Screenshot 2024-01-18 at 18.36.06.png|450](/img/user/Assets/Screenshot%202024-01-18%20at%2018.36.06.png)
+![Screenshot 2024-01-18 at 18.36.06.png|250](/img/user/Assets/Screenshot%202024-01-18%20at%2018.36.06.png)
 
 
 >[!info] הבחנה
@@ -37,7 +37,7 @@ switch פועל ב[[Computer Science/Networks/Computer Networks Intro and Protoc
 
 הראוטר מקבל מפקטה את כתובת הIP והוא קובע האם זה מיועד לרשת שלו או שזה מיועד לרשת אחרת. בעצם הראוטר מהווה Gateway של הרשת המקומית.
 
-![Screenshot 2024-01-18 at 18.31.06.png](/img/user/Assets/Screenshot%202024-01-18%20at%2018.31.06.png)
+![Screenshot 2024-01-18 at 18.31.06.png|400](/img/user/Assets/Screenshot%202024-01-18%20at%2018.31.06.png)
 
 ## ההבדלים
-![Pasted image 20240118183746.png](/img/user/Assets/Pasted%20image%2020240118183746.png)
+![Pasted image 20240118183746.png|400](/img/user/Assets/Pasted%20image%2020240118183746.png)
