@@ -3,7 +3,7 @@
 ---
 
 # javascript
-לרוב [[Computer Science/Programming Concepts/HTML - CSS - Javascript#JavaScript\|javascript]] היא שפה המיועדת ל[[Computer Science/Programming Concepts/HTML - CSS - Javascript\|web]] 
+לרוב [[Computer Science/Programming Concepts/FullStack/HTML - CSS - Javascript#JavaScript\|javascript]] היא שפה המיועדת ל[[Computer Science/Programming Concepts/FullStack/HTML - CSS - Javascript\|web]] 
 אבל יש לשפה כמה תכונות מעניינות שנרצה לעסוק בהן. 
 
 ראשית, השפה היא duck type checking כלומר שהיא כמעט לא עושה בדיקת טיפוסים, היא רק בודקת האם כל הפונקציות שאובייקט מסויים מפעיל אכן מוגדרות אצל האובייקט הזה. נזכיר שפרדיגמות של type checking נוספות הן static type כמו ב [[Computer Science/Programming Concepts/Programming Languages Principles/OCaml\|OCaml]] שנעשות בזמן קומפילציה או dynamic type שבה ה [[Computer Science/Programming Concepts/Programming Languages Principles/Type Inference\|Type Inference]] נעשה בזמן ריצה.
