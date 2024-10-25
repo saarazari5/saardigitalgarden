@@ -20,11 +20,13 @@ Greetings! I'm Saar Azari, the creator of this website, dedicated to CS students
 - [[Computer Science/Networks/The History Of The Internet\|The History Of The Internet]]
 - [[Computer Science/Networks/Computer Networks Intro and Protocol layers\|Computer Networks Intro and Protocol layers]]
 - [[Computer Science/Networks/Network Devices\|Network Devices]]
+- [[Computer Science/Networks/ARP-Address Resolution Protocol\|ARP-Address Resolution Protocol]]
 - [[Computer Science/Networks/Socket Programming\|Socket Programming]]
 - [[Computer Science/Networks/Transport Layer\|Transport Layer]]
 - [[Computer Science/Networks/Application Layer\|Application Layer]]
 - [[Computer Science/Networks/MAC\|MAC]]
 - [[Computer Science/Networks/Network Layer\|Network Layer]]
+- [[Computer Science/Networks/Network Security/Encryption\|Encryption]]
 
 { .block-language-dataview}
 ### Parallel Computing
@@ -59,23 +61,23 @@ Greetings! I'm Saar Azari, the creator of this website, dedicated to CS students
 
 ### Computer System 
 - [[Computer Science/Computer System/ASCII\|ASCII]]
-- [[Computer Science/Computer System/Array and Data structures in Assembly\|Array and Data structures in Assembly]]
-- [[Computer Science/Computer System/Computer System Cache Memory\|Computer System Cache Memory]]
 - [[Computer Science/Computer System/Computer system basics\|Computer system basics]]
+- [[Computer Science/Computer System/Array and Data structures in Assembly\|Array and Data structures in Assembly]]
 - [[Computer Science/Computer System/Disassembly - basics\|Disassembly - basics]]
-- [[Computer Science/Computer System/Functions in assembly\|Functions in assembly]]
+- [[Computer Science/Computer System/Computer System Cache Memory\|Computer System Cache Memory]]
 - [[Computer Science/Computer System/Little and Big Endian\|Little and Big Endian]]
-- [[Computer Science/Computer System/Program structure in assembly\|Program structure in assembly]]
+- [[Computer Science/Computer System/SIMD\|SIMD]]
+- [[Computer Science/Computer System/Functions in assembly\|Functions in assembly]]
 - [[Computer Science/Computer System/UTF-8\|UTF-8]]
 - [[Computer Science/Computer System/Unicode\|Unicode]]
-- [[Computer Science/Computer System/base convertors\|base convertors]]
 - [[Computer Science/Computer System/basic commands in assembly\|basic commands in assembly]]
+- [[Computer Science/Computer System/base convertors\|base convertors]]
 - [[Computer Science/Computer System/control flow in assembly\|control flow in assembly]]
-- [[Computer Science/Computer System/gdb\|gdb]]
+- [[Computer Science/Computer System/Program structure in assembly\|Program structure in assembly]]
 - [[Computer Science/Computer System/signed Integers in Binary\|signed Integers in Binary]]
 - [[Computer Science/Computer System/wide-character\|wide-character]]
+- [[Computer Science/Computer System/gdb\|gdb]]
 - [[Computer Science/Computer System/x86-64 Assembly\|x86-64 Assembly]]
-- [[Computer Science/Computer System/SIMD\|SIMD]]
 
 { .block-language-dataview}
 ### Algorithms 
