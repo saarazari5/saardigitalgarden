@@ -2,7 +2,7 @@
 {"dateCreated":"2023-01-26 14:42","tags":["probability","computer_science"],"pageDirection":"rtl","dg-publish":true,"permalink":"/computer-science/probability/further-topics-on-random-variables/","dgPassFrontmatter":true}
 ---
 
-
+ 
 
 # קונבולוצייה, שונות משותפת , פונקציות על מ״מ ועוד
 
