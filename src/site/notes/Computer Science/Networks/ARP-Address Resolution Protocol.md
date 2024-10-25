@@ -1,21 +1,20 @@
 ---
-{"dateCreated":"2024-01-18 19:09","tags":null,"pageDirection":"rtl","dg-publish":true,"permalink":"/computer-science/networks/arp-address-resolution-protocol/","dgPassFrontmatter":true}
+{"dateCreated":"2024-01-18 19:09","tags":["networks"],"pageDirection":"rtl","dg-publish":true,"permalink":"/computer-science/networks/arp-address-resolution-protocol/","dgPassFrontmatter":true}
 ---
 
 # ARP
-זה [[Computer Science/Networks/Computer Networks Intro and Protocol layers#Protocol layering\|פרוטוקול]] של ה[[Computer Science/Networks/Network Layer\|Network Layer]] שמאפשר לכל מחשב __לגבש טבלה של כל כרטיסי הרשת__ שהוא מחובר אליהם ישירות __ברשת מקומית__. אם נרצה לדבר עם מחשב שנמצא איתי באותה הרשת עליי לדעת את כתובת הIP של המחשב, ואת כתובת הMAC שלו. ה[[Computer Science/Networks/Network Devices#Router\|ראוטר]] יודע לאיזה האם כתובת הMAC שייכת לאחד המכשירים שמחוברים אליו ברשת מקומית או שעליו להעביר את הפקטה לכתובת MAC של הראוטר הבא במסלול ליעד (דרך שכבת הקו). לכן יש חשיבות לקשר בין [[Computer Science/Networks/MAC\|MAC]] לבין [[Computer Science/Networks/IP\|IP]]. 
+זה [[Computer Science/Networks/Computer Networks Intro and Protocol layers#Protocol layering\|פרוטוקול]] של ה[[Link Layer\|Link Layer]] שמאפשר לכל מחשב __לגבש טבלה של כל כרטיסי הרשת__ שהוא מחובר אליהם ישירות __ברשת מקומית__. אם נרצה לדבר עם מחשב שנמצא איתי באותה הרשת עליי לדעת את כתובת הIP של המחשב, ואת כתובת הMAC שלו. ה[[Computer Science/Networks/Network Devices#Router\|ראוטר]] יודע לאיזה האם כתובת הMAC שייכת לאחד המכשירים שמחוברים אליו ברשת מקומית או שעליו להעביר את הפקטה לכתובת MAC של הראוטר הבא במסלול ליעד (דרך שכבת הקו). לכן יש חשיבות לקשר בין [[Computer Science/Networks/MAC\|MAC]] לבין [[Computer Science/Networks/IP\|IP]]. 
 
 פרוטוקול ARP רלוונטי רק ב __שכבת הקו__ , כלומר רק ברשת המקומית. לכן יש צורך של המחשב לדעת מי נמצא איתו ברשת המקומית. הזיהוי הזה מתבצע באמצעות הצמדה של כתובת MAC לכתובת IP של המחשבים שנמצאים איתו באותה רשת. 
 
 הפרוטוקול עובד באופן הבא: 
-
 א) מחשב A שולח ARP Query לכל הישויות ברשת המקומית- השאילתה היא מהצורה __למי יש את כתובת הMAC המתאימה לDest IP ששמור אצלי בFrame?__ . הוא עושה זאת על ידי שליחת השאילתה לכתובת הMAC מהצורה `255:255:255:255:255:255` שהיא כתובת Broadcast כלומר זה ישלח את ההודעה לכל המחשבים השמורים ברשת המקומית. בדומה ל[[Computer Science/Networks/Network Devices#Switch Table\|Switch Table]] , רק המחשב שמזהה את כתובת ה IP שלו יגיב. 
 
-ב) לאחר התגובה של מחשב A ממחשב B , הוא שומר את המידע ב ARP table שנמצא אצלו (לכל מחשב ברשת המקומית יש טבלה משלו) שמכיל את העמודות IP,MAC,Port . פעם הבאה הוא יוודא בטבלה האם כתובת הMAC שמורה בהינתן הDest IP וככה יוותר על תהליך הBroadcast. 
+ב) לאחר התגובה של מחשב A ממחשב B , הוא שומר את המידע ב __ARP table__ שנמצא אצלו (לכל מחשב ברשת המקומית יש טבלה משלו) שמכיל את העמודות IP,MAC,Port . פעם הבאה הוא יוודא בטבלה האם כתובת הMAC שמורה בהינתן הDest IP וככה יוותר על תהליך הBroadcast. 
 
-![Pasted image 20240226000812.png](/img/user/Assets/Pasted%20image%2020240226000812.png)
-![Screenshot 2024-02-26 at 0.08.35.png](/img/user/Assets/Screenshot%202024-02-26%20at%200.08.35.png)
-![Screenshot 2024-02-26 at 0.08.20.png](/img/user/Assets/Screenshot%202024-02-26%20at%200.08.20.png)
+![Pasted image 20240226000812.png|400](/img/user/Assets/Pasted%20image%2020240226000812.png)
+![Screenshot 2024-02-26 at 0.08.35.png|400](/img/user/Assets/Screenshot%202024-02-26%20at%200.08.35.png)
+![Screenshot 2024-02-26 at 0.08.20.png|400](/img/user/Assets/Screenshot%202024-02-26%20at%200.08.20.png)
 ## פקטת ARP
 כאשר בקשת ARP נשלחת לכל הישויות ברשת המקומית, במטרה למפות בין כתובת לוגית לכתובת פיזית, בתגובה, המחשב שכתובת ה IP בבקשה שייכת לו, מחזירת את כתובת הMAC שלו. בגלל שפקטת ARP עוברת רק בשכבת הקו, אז גם הבקשות וגם התגובות של פקטות כאלה נעטפות רק ב header אחד
 
@@ -24,9 +23,13 @@
 >[!info] שליחת מידע מחוץ לרשת המקומית
 >כשמחשב רוצה לשלוח מידע למחשב אחר ברשת הוא קודם כל שואל את עצמו, ״האם אני צריך לשלוח את המידע למחשב ברשת המקומית שלי, הוא עושה זאת באמצעות השוואת הקידומת של כתובת הIP שלו לכתובת הIP של היעד, ככה הוא יודע האם היעד שייך לרשת המקומית (למחשבים ברשת מקומית יש את אותה הקידומת). אם הוא מבין שהוא צריך להעביר את המידע ברשת המקומית הוא משתמש ב ARP כדי לקבל מידע על MAC היעד. אם היעד נמצא מחוץ לרשת יש צורך בשכבת הערוץ כדי לעבור בין התחנות ולשם כך יש צורך להעביר את המידע בין הראוטרים הסמוכים ולכן המחשב גם יכול להשתמש ב ARP כדי להשיג את הכתובת MAC של הראוטר ולהעביר את המידע אליה (במקרה הפשוט יש ראוטר אחד ברשת מקומית ולכן אפשר גם להעביר את המידע לdefault gateway). 
 >
->![Pasted image 20240118195501.png|450](/img/user/Assets/Pasted%20image%2020240118195501.png)
->![Pasted image 20240118195727.png|450](/img/user/Assets/Pasted%20image%2020240118195727.png)
->![Pasted image 20240118195817.png|450](/img/user/Assets/Pasted%20image%2020240118195817.png)
+>![Pasted image 20240118195501.png|300](/img/user/Assets/Pasted%20image%2020240118195501.png)
+>
+>![Pasted image 20240118195727.png|300](/img/user/Assets/Pasted%20image%2020240118195727.png)
+>
+>![Pasted image 20240118195817.png|300](/img/user/Assets/Pasted%20image%2020240118195817.png)
+
+
 
 
 
